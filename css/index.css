@@ -1,0 +1,21 @@
+body
+{
+   background-color: #000000;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#Layer1
+{
+   background-color: #000000;
+   background-image: none;
+}
+#Layer2
+{
+   background-color: #000000;
+   background-image: none;
+}
