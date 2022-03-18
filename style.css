@@ -27,6 +27,10 @@
 body {
   background-color: #f4f9fa;
 }
+.wrapper
+{
+	width: 100%;
+}
 .parallax {
   position: fixed;
   left: 0px;
@@ -128,6 +132,17 @@ body {
   display: inline-block;
   height: 106%;
   width: 106%;
+	z-index: 2;
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-o-filter: blur(1px);
+	-ms-filter: blur(1px);
+	filter: blur(1px);
+}
+.parallax #Dym {
+  display: inline-block;
+  height: 120%;
+  width: 120%;
 	z-index: 2;
 	-webkit-filter: blur(1px);
 	-moz-filter: blur(1px);
