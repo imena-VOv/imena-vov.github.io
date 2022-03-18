@@ -6,6 +6,23 @@
   <title>Имена ВОв</title>
   <link href="iconka16.ico" rel="shortcut icon" type="image/x-icon">
   <link href="iconka256.png" rel="apple-touch-icon" sizes="256x256">
+  <style>
+   .preloader{
+          position: fixed;
+		  background-color: #000000;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+		  z-index: 99999;
+   }
+   .preloader > div{
+          position: absolute;
+		  left: 50%;
+		  top: 50vh;
+          margin: -120px 0 0 -90px;		  
+	}
+</style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" href="./style.css">
 </head>
@@ -13,6 +30,9 @@
 <div id="scene" data-relative-input="true" class="parallax">
   <div data-depth="0.015" class="text-center">
     <img id="mountain" src="images/1.jpg" alt="">
+  </div>
+    <div data-depth="0.5" class="text-center">
+    <img id="Dym" src="images/fog-1.png" alt="">
   </div>
   <h1 data-depth="0.025" class="text-center">ИМЕНА ВОв</h1>
   <div data-depth="0.025" class="text-center">
@@ -32,5 +52,10 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js'></script>
 <script  src="./script.js"></script>
+<script>
+    $(window).on('load', function(){
+	$('.preloader').delay(700).fadeOut('slow');
+	});
+</script>
 </body>
 </html>
