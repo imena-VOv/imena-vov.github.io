@@ -23,8 +23,8 @@ body
   font-weight: bold;
   position: absolute;
   text-transform: uppercase;
-  margin-top: 5vh;
-  margin-left: 86vh;
+  margin-top: 2%;
+  margin-left: 58%;
   font-size: 18px;
   color: white;
   mix-blend-mode: hard-light;
@@ -96,8 +96,8 @@ body {
   font-weight: bold;
   position: absolute;
   text-transform: uppercase;
-  margin-top: 5vh;
-  margin-left: 5vh;
+  margin-top: 3%;
+  margin-left: 3%;
   font-size: 20px;
   color: white;
   mix-blend-mode: hard-light;
