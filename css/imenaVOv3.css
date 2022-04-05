@@ -1,3 +1,13 @@
+@font-face
+{
+   font-family: "Noto Sans";
+   src: url('../text/0IIpQlx3QUlC5A4PNr5TRF.ttf') format('truetype');
+}
+@font-face
+{
+   font-family: "Noto Sans";
+   src: url('../text/0NIpQlx3QUlC5A4PNjXhFVZNyE.ttf') format('truetype');
+}
 a
 {
    color: #0000FF;
@@ -81,4 +91,21 @@ h6, .h6
    text-decoration: none;
    color: #2E74B5;
    background-color: transparent;
+}
+.VOv
+{
+   text-decoration: none;
+   background-color: transparent;
+   font-family: 'Noto Sans', sans-serif;
+   font-weight: bold;
+   position: absolute;
+   text-transform: uppercase;
+   margin-top: 160px;
+   margin-left: -355px;
+   font-size: 36px;
+   color: white;
+   mix-blend-mode: hard-light;
+   z-index: 1;
+   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
+   letter-spacing: 2px;
 }
