@@ -20,6 +20,41 @@
 </div>
 </div>
 
+<script src="js/jquery-1.12.4.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<a style='position: fixed; bottom: 94px; right: 50px; cursor:pointer; display:none;'
+href='#' id='Go_Top'>
+<img src="images/up.png" alt="Наверх" title="Наверх">
+</a>
+<a style='position: fixed; bottom: 20px; right: 50px; cursor:pointer; display:none;'
+href='#' id='Go_Bottom'>
+<img src="images/down.png" alt="Вниз" title="Вниз">
+</a>
+<script type="text/javascript">
+jQuery(function(){
+$("#Go_Top").hide().removeAttr("href");
+if ($(window).scrollTop()>="250") $("#Go_Top").fadeIn("slow")
+$(window).scroll(function(){
+if ($(window).scrollTop()<="250") $("#Go_Top").fadeOut("slow")
+else $("#Go_Top").fadeIn("slow")
+});
+
+$("#Go_Bottom").hide().removeAttr("href");
+if ($(window).scrollTop()<=$(document).height()-"999") $("#Go_Bottom").fadeIn("slow")
+$(window).scroll(function(){
+if ($(window).scrollTop()>=$(document).height()-"999") $("#Go_Bottom").fadeOut("slow")
+else $("#Go_Bottom").fadeIn("slow")
+});
+
+$("#Go_Top").click(function(){
+$("html, body").animate({scrollTop:0},"slow")
+})
+$("#Go_Bottom").click(function(){
+$("html, body").animate({scrollTop:$(document).height()},"slow")
+})
+});
+</script>
+
 <script>
 $(document).ready(function(){
     $(this).scrollTop(0);
