@@ -1,0 +1,315 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+   overflow-x: hidden;
+   overflow-y: hidden;
+}
+
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+   overflow-x: hidden;
+   overflow-y: hidden;
+}
+.dev {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  text-transform: uppercase;
+  margin-top: -7%;
+  margin-left: -12%;
+  font-size: 18px;
+  color: white;
+  mix-blend-mode: hard-light;
+  z-index: 22222;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2px;
+}
+.dev a {
+  opacity: 0.6;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.dev1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  text-transform: uppercase;
+  margin-top: 5%;
+  margin-left: 45%;
+  font-size: 18px;
+  color: white;
+  mix-blend-mode: hard-light;
+  z-index: 22222;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2px;
+}
+.dev1 a {
+  opacity: 0.6;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.dev2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  text-transform: uppercase;
+  margin-top: 7%;
+  margin-left: 45%;
+  font-size: 18px;
+  color: white;
+  mix-blend-mode: hard-light;
+  z-index: 22222;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2px;
+}
+.dev2 a {
+  opacity: 0.6;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.dev3 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  text-transform: uppercase;
+  margin-top: 9%;
+  margin-left: 45%;
+  font-size: 18px;
+  color: white;
+  mix-blend-mode: hard-light;
+  z-index: 22222;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2px;
+}
+.dev3 a {
+  opacity: 0.6;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://imena-vov.github.io/text/0IIpQlx3QUlC5A4PNr5TRF.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://imena-vov.github.io/text/0NIpQlx3QUlC5A4PNjXhFVZNyE.ttf) format('truetype');
+}
+body {
+  background-color: #f4f9fa;
+}
+.wrapper
+{
+	width: 100%;
+}
+.parallax {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .parallax {
+    top: 100%;
+  }
+}
+.parallax h1 {
+  font-family: 'Noto Sans', sans-serif;
+  position: absolute;
+  font-weight: bold;
+  text-transform: none;
+  margin-top: 20px;
+  font-size: 110px;
+  margin-left: -240px;
+  color: #eaeaea;
+  mix-blend-mode: hard-light;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
+  letter-spacing: -10px;
+}
+@media screen and (max-width: 768px) {
+  .parallax h1 {
+    margin-top: 35px;
+    font-size: 55px;
+    letter-spacing: -3px;
+  }
+}
+.parallax h2{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  text-transform: uppercase;
+  margin-top: 3%;
+  margin-left: 3%;
+  font-size: 20px;
+  color: white;
+  mix-blend-mode: hard-light;
+  z-index: 1;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2px;
+  line-height: 1.3;
+}
+@media screen and (max-width: 768px) {
+  .parallax h2 {
+    font-size: 18px;
+    margin-top: 135px;
+  }
+}
+.parallax h3{
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  text-transform: uppercase;
+  margin-top: 150px;
+  margin-left: 100px;
+  font-size: 18px;
+  color: white;
+  mix-blend-mode: hard-light;
+  z-index: 1;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 768px) {
+  .parallax h3 {
+    font-size: 18px;
+    margin-top: 135px;
+  }
+}
+.parallax #fonimena {
+	height: 105%;
+    width: 105%;
+ z-index: 1;
+	-webkit-filter: blur(2px);
+	-moz-filter: blur(2px);
+	-o-filter: blur(2px);
+	-ms-filter: blur(2px);
+	filter: blur(2px);
+}
+.parallax #Dym {
+  display: inline-block;
+  height: 120%;
+  width: 120%;
+	z-index: 2;
+	-webkit-filter: blur(1px);
+	-moz-filter: blur(1px);
+	-o-filter: blur(1px);
+	-ms-filter: blur(1px);
+	filter: blur(1px);
+}
+.text-center {
+  text-align: center;
+  width: 100%;
+}
+.text-left {
+  text-align: left;
+  width: 100%;
+}
+#imena1.jpg
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#preloader.gif
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+   .preloader{
+          position: fixed;
+		  background-color: #000000;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+		  z-index: 99999;
+   }
+   .preloader > div{
+          position: absolute;
+		  left: 50%;
+		  top: 50vh;
+          margin: -120px 0 0 -90px;		  
+	}
+	
+#imena1.jpg
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#preloader.gif
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+   .preloader{
+          position: fixed;
+		  background-color: #000000;
+		  top: 0;
+		  left: 0;
+		  right: 0;
+		  bottom: 0;
+		  z-index: 99999;
+   }
+   .preloader > div{
+          position: absolute;
+		  left: 50%;
+		  top: 50vh;
+          margin: -120px 0 0 -90px;		  
+	}
