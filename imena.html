@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta charset="utf-8">
+<title>Имена и подвиги</title>
+<link href="iconka16.ico" rel="shortcut icon" type="image/x-icon">
+<link href="iconka256.png" rel="apple-touch-icon" sizes="256x256">
+<link href="css/imenaVOv3.css" rel="stylesheet">
+<link href="css/imena.css" rel="stylesheet">
+<canvas id="c"></canvas>
+</head>
+<body>
+<div class="preloader">
+<div>
+<img src="images/preloader.gif" width="200" height="200" alt="">
+</div>
+</div>
+
+
+<div id="container">
+<!-- imenaHTML -->
+  <div class="wrapper">
+<div id="scene" data-relative-input="true" class="parallax">
+  <div data-depth="0.015" class="text-center">
+    <img id="fonimena" src="images/imena1.jpg" alt="">
+  </div>
+    <div data-depth="0.5" class="text-center">
+    <img id="Dym" src="images/fog-1.png" alt="">
+  </div>
+      <h2 data-depth="0.03" class="text-left">«Имена и подвиги»</h2>
+</div>
+<p class="dev" data-depth="0.025"><a href='./index.html'>◀ НА ГЛАВНУЮ</a></p>
+<script src="js/jquery.min.js"></script>
+<script src="js/parallax.min.js"></script>
+<script src="js/script.js"></script>
+</div>
+
+<div id="wb_imena1.jpg" style="position:absolute;left:133px;top:0px;width:310px;height:247px;visibility:hidden;z-index:2;">
+<img src="images/imena1.jpg" id="imena1.jpg" alt=""></div>
+<div id="wb_preloader.gif" style="position:absolute;left:241px;top:144px;width:300px;height:300px;visibility:hidden;z-index:3;">
+<img src="images/preloader.gif" id="preloader.gif" alt=""></div>
+</div>
+<script>
+    $(window).on('load', function(){
+	$('.preloader').delay(700).fadeOut('slow');
+	});
+</script>
+</body>
+</html>
