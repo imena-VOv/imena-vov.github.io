@@ -1,6 +1,6 @@
 div#container
 {
-   width: 100%;
+   width: 970px;
    position: relative;
    margin: 0 auto 0 auto;
    text-align: left;
@@ -23,8 +23,8 @@ body
   font-weight: bold;
   position: absolute;
   text-transform: uppercase;
-  margin-top: 2%;
-  margin-left: 58%;
+  margin-top: 3%;
+  margin-left: 45%;
   font-size: 18px;
   color: white;
   mix-blend-mode: hard-light;
@@ -33,6 +33,66 @@ body
   letter-spacing: 2px;
 }
 .dev a {
+  opacity: 0.6;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.dev1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  text-transform: uppercase;
+  margin-top: 6%;
+  margin-left: 45%;
+  font-size: 18px;
+  color: white;
+  mix-blend-mode: hard-light;
+  z-index: 22222;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2px;
+}
+.dev1 a {
+  opacity: 0.6;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.dev2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  text-transform: uppercase;
+  margin-top: 9%;
+  margin-left: 45%;
+  font-size: 18px;
+  color: white;
+  mix-blend-mode: hard-light;
+  z-index: 22222;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2px;
+}
+.dev2 a {
+  opacity: 0.6;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+.dev3 {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  position: absolute;
+  text-transform: uppercase;
+  margin-top: 12%;
+  margin-left: 45%;
+  font-size: 18px;
+  color: white;
+  mix-blend-mode: hard-light;
+  z-index: 22222;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
+  letter-spacing: 2px;
+}
+.dev3 a {
   opacity: 0.6;
   text-decoration: none;
   color: white;
