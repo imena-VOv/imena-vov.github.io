@@ -1,7 +1,3 @@
-$(document).ready(function(){
-    $(this).scrollTop(0);
-});
-
 var scene = document.getElementById('scene');
 var parallaxInstance = new Parallax(scene);
 
