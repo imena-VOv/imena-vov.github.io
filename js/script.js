@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+
 var scene = document.getElementById('scene');
 var parallaxInstance = new Parallax(scene);
 
@@ -7,8 +11,4 @@ $(window).scroll(function () {
 display = $(this).scrollTop() <= 1;
 display != element.css('opacity') && element.stop().animate({ 'opacity': display }, 40);
 });
-});
-
-$(document).ready(function(){
-    $(this).scrollTop(0);
 });
