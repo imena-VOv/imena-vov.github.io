@@ -12,6 +12,7 @@
 <link rel="stylesheet" href="css/lightbox.css">
 <script src="js/1945.min.js"></script>
 <script src="js/jquery.min.js"></script>
+
 </head>
 <body>
 <div class="preloader">
@@ -19,7 +20,12 @@
 <img src="images/preloader.gif" width="200" height="200" alt="">
 </div>
 </div>
-
+<script>
+$(window).on('beforeunload', function() {
+  $('body').hide();
+  $(window).scrollTop(0);
+});
+</script>
 <div class="wrapper">
  <div id="scene" data-relative-input="true" class="parallax">
     <div data-depth="0.015" class="text-center">
@@ -3299,6 +3305,7 @@ $('body,html').animate({scrollTop:0},800); return false;
 </script>
 
 <DIV ID = "toTop"><a href="#" class="button9"> ^ Наверх </a></DIV>
+
 
 <script>
     $(window).on('load', function(){
