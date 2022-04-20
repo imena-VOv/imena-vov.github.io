@@ -11,6 +11,7 @@
 <canvas id="c"></canvas><link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/lightbox.css">
 <script src="js/1945.min.js"></script>
+<script src="js/jquery.min.js"></script>
 </head>
 <body>
 <div class="preloader">
@@ -18,47 +19,6 @@
 <img src="images/preloader.gif" width="200" height="200" alt="">
 </div>
 </div>
-
-<script src="js/jquery-1.12.4.min.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<a style='position: fixed; bottom: 94px; right: 50px; cursor:pointer; display:none;'
-href='#' id='Go_Top'>
-<img src="images/up.png" alt="Наверх" title="Наверх">
-</a>
-<a style='position: fixed; bottom: 20px; right: 50px; cursor:pointer; display:none;'
-href='#' id='Go_Bottom'>
-<img src="images/down.png" alt="Вниз" title="Вниз">
-</a>
-<script type="text/javascript">
-jQuery(function(){
-$("#Go_Top").hide().removeAttr("href");
-if ($(window).scrollTop()>="250") $("#Go_Top").fadeIn("slow")
-$(window).scroll(function(){
-if ($(window).scrollTop()<="250") $("#Go_Top").fadeOut("slow")
-else $("#Go_Top").fadeIn("slow")
-});
-
-$("#Go_Bottom").hide().removeAttr("href");
-if ($(window).scrollTop()<=$(document).height()-"999") $("#Go_Bottom").fadeIn("slow")
-$(window).scroll(function(){
-if ($(window).scrollTop()>=$(document).height()-"999") $("#Go_Bottom").fadeOut("slow")
-else $("#Go_Bottom").fadeIn("slow")
-});
-
-$("#Go_Top").click(function(){
-$("html, body").animate({scrollTop:0},"slow")
-})
-$("#Go_Bottom").click(function(){
-$("html, body").animate({scrollTop:$(document).height()},"slow")
-})
-});
-</script>
-
-<script>
-$(document).ready(function(){
-    $(this).scrollTop(0);
-});
-</script>
 
 <div class="wrapper">
  <div id="scene" data-relative-input="true" class="parallax">
@@ -2419,7 +2379,6 @@ $(document).ready(function(){
 </div>
 
 
-
 <!-- Имена -->
 <script>
 var wb_Timer1;
@@ -3314,14 +3273,34 @@ function TimerStopTimer1()
 
 </div>
 
+
+
 <script src="http://code.jquery.com/ jquery-1.9.1.js"></script>
 <script src="http://code.jquery.com/jquery-latest.js"></script>
 <script src="js/lightbox-2.6.min.js"></script>
+
+<script type="text/javascript">
+$(function() {
+$(window).scroll(function() {
+if($(this).scrollTop() > 100) {
+$('#toTop').fadeIn();
+} else {
+$('#toTop').fadeOut();
+}
+});
+$('#toTop').click(function() {
+$('body,html').animate({scrollTop:0},800); return false;
+});
+});
+</script>
+
+<DIV ID = "toTop"><a href="#" class="button9"> ^ Наверх </a></DIV>
 
 <script>
     $(window).on('load', function(){
 	$('.preloader').delay(700).fadeOut('slow');
 	});
 </script>
+
 </body>
 </html>
