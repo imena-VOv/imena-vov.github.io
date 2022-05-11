@@ -24,7 +24,7 @@ body
   position: absolute;
   text-transform: uppercase;
   margin-top: 3%;
-  margin-left: 45%;
+  margin-left: -10%;
   font-size: 18px;
   color: white;
   mix-blend-mode: hard-light;
@@ -33,7 +33,7 @@ body
   letter-spacing: 2px;
 }
 .dev a {
-  opacity: 0.6;
+  opacity: 0.8;
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -44,7 +44,7 @@ body
   position: absolute;
   text-transform: uppercase;
   margin-top: 6%;
-  margin-left: 45%;
+  margin-left: -10%;
   font-size: 18px;
   color: white;
   mix-blend-mode: hard-light;
@@ -53,7 +53,7 @@ body
   letter-spacing: 2px;
 }
 .dev1 a {
-  opacity: 0.6;
+  opacity: 0.8;
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -64,7 +64,7 @@ body
   position: absolute;
   text-transform: uppercase;
   margin-top: 9%;
-  margin-left: 45%;
+  margin-left: -10%;
   font-size: 18px;
   color: white;
   mix-blend-mode: hard-light;
@@ -73,7 +73,7 @@ body
   letter-spacing: 2px;
 }
 .dev2 a {
-  opacity: 0.6;
+  opacity: 0.8;
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -84,7 +84,7 @@ body
   position: absolute;
   text-transform: uppercase;
   margin-top: 12%;
-  margin-left: 45%;
+  margin-left: -10%;
   font-size: 18px;
   color: white;
   mix-blend-mode: hard-light;
@@ -93,7 +93,7 @@ body
   letter-spacing: 2px;
 }
 .dev3 a {
-  opacity: 0.6;
+  opacity: 0.8;
   text-decoration: none;
   color: white;
   font-weight: bold;
@@ -196,11 +196,11 @@ body {
 	height: 105%;
     width: 105%;
  z-index: 1;
-	-webkit-filter: blur(2px);
-	-moz-filter: blur(2px);
-	-o-filter: blur(2px);
-	-ms-filter: blur(2px);
-	filter: blur(2px);
+	-webkit-filter: blur(0.5px);
+	-moz-filter: blur(0.5px);
+	-o-filter: blur(0.5px);
+	-ms-filter: blur(0.5px);
+	filter: blur(0.5px);
 }
 .parallax #boat {
   display: inline-block;
@@ -229,22 +229,22 @@ body {
   height: 105%;
   width: 105%;
 	z-index: 2;
-	-webkit-filter: blur(1.5px);
-	-moz-filter: blur(1.5px);
-	-o-filter: blur(1.5px);
-	-ms-filter: blur(1.5px);
-	filter: blur(1.5px);
+	-webkit-filter: blur(1.0px);
+	-moz-filter: blur(1.0px);
+	-o-filter: blur(1.0px);
+	-ms-filter: blur(1.0px);
+	filter: blur(1.0px);
 }
 .parallax #flag {
   display: inline-block;
   height: 106%;
   width: 106%;
 	z-index: 2;
-	-webkit-filter: blur(1px);
-	-moz-filter: blur(1px);
-	-o-filter: blur(1px);
-	-ms-filter: blur(1px);
-	filter: blur(1px);
+	-webkit-filter: blur(1.0px);
+	-moz-filter: blur(1.0px);
+	-o-filter: blur(1.0px);
+	-ms-filter: blur(1.0px);
+	filter: blur(1.0px);
 }
 .parallax #Dym {
   display: inline-block;
@@ -275,7 +275,7 @@ body {
    width: 100%;
    height: 100%;
 }
-#1.jpg
+#01.jpg
 {
    border: 0px solid #000000;
    padding: 0;
@@ -285,7 +285,7 @@ body {
    width: 100%;
    height: 100%;
 }
-#2.png
+#02.png
 {
    border: 0px solid #000000;
    padding: 0;
@@ -295,7 +295,7 @@ body {
    width: 100%;
    height: 100%;
 }
-#3.png
+#03.png
 {
    border: 0px solid #000000;
    padding: 0;
@@ -305,7 +305,7 @@ body {
    width: 100%;
    height: 100%;
 }
-#4.png
+#04.png
 {
    border: 0px solid #000000;
    padding: 0;
@@ -325,7 +325,7 @@ body {
    width: 100%;
    height: 100%;
 }
-#Flag2.webp
+#Flag30.webp
 {
    border: 0px solid #000000;
    padding: 0;
