@@ -111,7 +111,7 @@ body
   src: url(https://imena-vov.github.io/text/0NIpQlx3QUlC5A4PNjXhFVZNyE.ttf) format('truetype');
 }
 body {
-  background-color: #f4f9fa;
+  background-color: #303030;
 }
 .wrapper
 {
@@ -119,10 +119,10 @@ body {
 }
 .parallax {
   position: fixed;
-  left: 0px;
-  top: 0px;
-  height: 100%;
-  width: 100%;
+  left: -2px;
+  top: -2px;
+  height: 105%;
+  width: 105%;
   overflow: hidden;
   text-align: center;
 }
