@@ -281,6 +281,8 @@ transition: top 0.3s;
 .zagolovok{
 margin-top: 30px;
 margin-left: 60px;
+background: transparent;
+opacity: 1;
 position: fixed;
 transition: top 0.3s;
 } 
