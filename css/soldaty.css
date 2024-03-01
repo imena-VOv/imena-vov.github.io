@@ -51,8 +51,8 @@ div#container
   font-weight: bold;
   position: absolute;
   text-transform: uppercase;
-  margin-top: 5%;
-  margin-left: 45%;
+  margin-top: -110px;
+  margin-left: -115px;
   font-size: 18px;
   color: white;
   mix-blend-mode: hard-light;
@@ -60,12 +60,7 @@ div#container
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
   letter-spacing: 2px;
 }
-.dev1 a {
-  opacity: 0.6;
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
+
 .dev2 {
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
