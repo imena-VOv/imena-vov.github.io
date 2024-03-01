@@ -52,11 +52,6 @@ body
   color: white;
   font-weight: bold;
 }
-@media screen and (min-width: 2559px) {
-  .dev {
-    font-size: 25px;
-  }
-}
 .dev1 {
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
@@ -160,11 +155,6 @@ body {
   width: 105%;
   overflow: hidden;
   text-align: center;
-}
-@media screen and (max-width: 768px) {
-  .parallax {
-    top: 100%;
-  }
 }
 .parallax h1 {
   font-family: 'Noto Sans', sans-serif;
