@@ -41,6 +41,7 @@ body
 @media screen and (min-width: 2559px) {
   .dev {
     font-size: 25px;
+	margin-top: 40px;
   }
 }
 .dev1 {
@@ -66,6 +67,7 @@ body
 @media screen and (min-width: 2559px) {
   .dev1 {
     font-size: 25px;
+	margin-top: 80px;
   }
 }
 .dev2 {
@@ -91,6 +93,7 @@ body
 @media screen and (min-width: 2559px) {
   .dev2 {
     font-size: 25px;
+	margin-top: 120px;
   }
 }
 .dev3 {
@@ -116,6 +119,7 @@ body
 @media screen and (min-width: 2559px) {
   .dev3 {
     font-size: 25px;
+	margin-top: 160px;
   }
 }
 @font-face {
