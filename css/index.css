@@ -63,6 +63,11 @@ body
   color: white;
   font-weight: bold;
 }
+@media screen and (min-width: 2559px) {
+  .dev1 {
+    font-size: 25px;
+  }
+}
 .dev2 {
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
@@ -83,6 +88,11 @@ body
   color: white;
   font-weight: bold;
 }
+@media screen and (min-width: 2559px) {
+  .dev2 {
+    font-size: 25px;
+  }
+}
 .dev3 {
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
@@ -102,6 +112,11 @@ body
   text-decoration: none;
   color: white;
   font-weight: bold;
+}
+@media screen and (min-width: 2559px) {
+  .dev3 {
+    font-size: 25px;
+  }
 }
 @font-face {
   font-family: 'Noto Sans';
@@ -126,7 +141,7 @@ body {
   position: fixed;
   left: -5px;
   top: -5px;
-  height: auto;
+  height: 105%;
   width: 105%;
   overflow: hidden;
   text-align: center;
