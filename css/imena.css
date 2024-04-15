@@ -39,7 +39,7 @@ div#container
   z-index: 22222;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
   letter-spacing: 2px;
-  @media screen (min-width: 1919px) and (max-width: 15360px) {
+  @media screen and (min-width: 1920px) {
   margin-left: -42%;
   font-size: 25px;
   }
@@ -63,7 +63,7 @@ div#container
   z-index: 22222;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
   letter-spacing: 2px;
-  @media screen (min-width: 1919px) and (max-width: 15360px) {
+  @media screen and (min-width: 1920px) {
   margin-left: -405px;
   font-size: 25px;
   }
@@ -198,7 +198,7 @@ body {
 	-o-filter: blur(0px);
 	-ms-filter: blur(0px);
 	filter: blur(0px);
-  @media screen (min-width: 1919px) and (max-width: 15360px) {
+  @media screen and (min-width: 1920px) {
     width: 125%;
   }
 }
@@ -213,7 +213,7 @@ body {
 	-o-filter: blur(0px);
 	-ms-filter: blur(0px);
 	filter: blur(0px);
-  @media screen (min-width: 1919px) and (max-width: 15360px) {
+  @media screen and (min-width: 1920px) {
     width: 3092px;
 	height: 1416px;
 	margin-left: -50px;
