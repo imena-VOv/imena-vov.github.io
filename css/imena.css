@@ -199,7 +199,7 @@ body {
 	-ms-filter: blur(0px);
 	filter: blur(0px);
   @media screen and (min-width: 1919px) and (max-width: 15360px) {
-    width: 102%;
+    width: 132%;
   }
 }
 
