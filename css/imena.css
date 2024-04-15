@@ -199,7 +199,7 @@ body {
 	-ms-filter: blur(0px);
 	filter: blur(0px);
   @media screen and (min-width: 1919px) and (max-width: 15360px) {
-    width: 125%;
+    width: 102%;
   }
 }
 
@@ -214,9 +214,9 @@ body {
 	-ms-filter: blur(0px);
 	filter: blur(0px);
   @media screen and (min-width: 1919px) and (max-width: 15360px) {
-    width: 3092px;
-	height: 1416px;
-	margin-left: -50px;
+    width: 2406px;
+	height: 1103px;
+	margin-left: -200px;
 	margin-top: 10px;
   }
 }
