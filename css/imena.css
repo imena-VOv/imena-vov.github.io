@@ -39,7 +39,11 @@ div#container
   z-index: 22222;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
   letter-spacing: 2px;
-  @media screen and (min-width: 1919px) and (max-width: 15360px) {
+  @media (min-width: 1680px) and (max-width: 1919px) {
+  margin-left: -31%;
+  font-size: 25px;
+  }
+  @media (min-width: 1920px) and (max-width: 15360px) {
   margin-left: -42%;
   font-size: 25px;
   }
@@ -63,7 +67,11 @@ div#container
   z-index: 22222;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
   letter-spacing: 2px;
-  @media screen and (min-width: 1919px) and (max-width: 15360px) {
+  @media (min-width: 1680px) and (max-width: 1919px) {
+  margin-left: -305px;
+  font-size: 25px;
+  }
+  @media (min-width: 1920px) and (max-width: 15360px) {
   margin-left: -405px;
   font-size: 25px;
   }
@@ -198,27 +206,64 @@ body {
 	-o-filter: blur(0px);
 	-ms-filter: blur(0px);
 	filter: blur(0px);
-  @media screen and (min-width: 1919px) and (max-width: 15360px) {
+  @media (min-width: 1680px) and (max-width: 1919px) {
     width: 132%;
+  }
+  @media (min-width: 1920px) and (max-width: 15360px) {
+    width: 112%;
   }
 }
 
 .parallax #fonimena3 {
     margin-left: -170px;
 	margin-top: 10px;
-    width: 1950px;
-    height: 893px;
 	-webkit-filter: blur(0px);
 	-moz-filter: blur(0px);
 	-o-filter: blur(0px);
 	-ms-filter: blur(0px);
 	filter: blur(0px);
-  @media screen and (min-width: 1919px) and (max-width: 15360px) {
-    width: 2406px;
-	height: 1103px;
-	margin-left: -200px;
+	@media screen and (min-width: 1px) and (max-width: 1279px) {
+	margin-left: -150px;
+	margin-top: 40px;
+  }
+	@media screen and (min-width: 1280px) and (max-width: 1479px) {
+	margin-left: -150px;
+	margin-top: 50px;
+  }
+	@media screen and (min-width: 1480px) and (max-width: 1679px) {
+	margin-left: 0px;
+	margin-top: 130px;
+  }
+	@media screen and (min-width: 1680px) and (max-width: 1919px) {
+	margin-left: -100px;
 	margin-top: 10px;
   }
+    @media screen and (min-width: 1920px) and (max-width: 2047px) {
+	margin-left: -100px;
+	margin-top: 0;
+  }
+    @media screen and (min-width: 2048px) and (max-width: 15360px) {
+	margin-left: -100px;
+	margin-top: 30px;
+  }
+}
+
+.parallax #fonimena3 .knigi1280 {
+	display: none;
+    pointer-events: none;
+ @media screen and (min-width: 1px) and (max-width: 1679px) {
+    display: block;
+	pointer-events: visible;
+	}
+}
+
+.parallax #fonimena3 .knigi {
+	display: none;
+    pointer-events: none;
+ @media screen and (min-width: 1680px) and (max-width: 15360px) {
+    display:block; 
+	pointer-events: visible;
+	}
 }
 
 .parallax #Dym {
