@@ -17,6 +17,16 @@ i,u{font-style:normal;text-decoration:none;}
 	cursor : default;
 }
 
+.dev {
+  text-decoration: none;
+}
+
+.dev a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
 .mask {
 	 cursor : default;
      position : absolute;
