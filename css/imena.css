@@ -246,7 +246,7 @@ body {
 	-o-filter: blur(0px);
 	-ms-filter: blur(0px);
 	filter: blur(0px);
-	@media screen and (min-width: 1px) and (max-width: 1199px) and (orientation: landscape) {
+	@media screen and (min-width: 1px) and (max-width: 1199px) {
 	margin-left: -150px;
 	margin-top: 40px;
   }
