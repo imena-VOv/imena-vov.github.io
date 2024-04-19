@@ -356,7 +356,7 @@ a.button9:hover { background: rgba(255,255,255,.2); }
     border-color: #bb9050 !important;
     letter-spacing: 1px !important;
     font-weight: bold !important;	
-    transition: all 0.5s ease !important;
+    transition: all 0.6s ease !important;
 }
 .button_ssylka:hover{
     text-decoration: none !important; 
