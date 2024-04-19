@@ -344,23 +344,23 @@ a.button9 {
 } 
 a.button9:hover { background: rgba(255,255,255,.2); }
 
-.button_ssylka {
-	display: inline-block !important;
-    text-decoration: none !important;
-    background-color: #eaeaea !important;
-    color: #834611 !important;
-    border: 2px solid #84b4c6 !important;
-    border-radius: 1px !important;
-    font-size: 15px !important;
-    padding: 5px 7px !important;
-    border-color: #bb9050 !important;
-    letter-spacing: 1px !important;
-    font-weight: bold !important;	
-    transition: all 0.6s ease !important;
+#button_ssylka {
+	display: inline-block;
+    text-decoration: none;
+    background-color: #eaeaea;
+    color: #834611;
+    border: 2px solid #84b4c6;
+    border-radius: 1px;
+    font-size: 15px;
+    padding: 5px 7px;
+    border-color: #bb9050;
+    letter-spacing: 1px;
+    font-weight: bold;	
+    transition: all 0.6s ease;
 }
-.button_ssylka:hover{
-    text-decoration: none !important; 
-    background-color: #bb9050 !important;
-    color: #ffeded !important;
-    border-color: #834611 !important;
+#button_ssylka:hover{
+    text-decoration: none; 
+    background-color: #bb9050;
+    color: #ffeded;
+    border-color: #834611;
 }
