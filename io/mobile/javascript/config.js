@@ -127,7 +127,7 @@ btnTableOfContent:["btnBookMark"]
 	OpenWindow:"_Blank",
 
 	BookMarkButtonVisible:'true',
-	productName : 'Demo created by Flip PDF',
+	productName : '',
 	homePage : '',
 	isFlipPdf : "true",
 	TableOfContentButtonVisible:"true",
