@@ -52,8 +52,8 @@ $(window).on('beforeunload', function() {
 .details {
   position: relative;
   display: block;
-  max-width: 350px;
-  margin: 0 auto 10px;
+  max-width: 700px;
+  margin: 50px auto 10px;
   background: rgba(255,255,255,0.6);
   border-radius: 10px;
   transition: 0.5s;
@@ -104,9 +104,12 @@ $(window).on('beforeunload', function() {
 }
 
 .details__content {
-  padding: 0 32px;
+  padding: 10px 20px 0 20px;
   font-size: 18px;
   margin-bottom: -50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
 }
 
 .details__content p:last-child {
@@ -115,37 +118,44 @@ $(window).on('beforeunload', function() {
 .details__content p:first-child {
   margin-top: 0;
 }
+#vesspisok {
+  font-size: 1.2em;
+}
 </style>
 
 <details class="details">
   <summary class="details__title">По месту жительства</summary>
-  <div class="details__content">
-    <p id="vesspisok" style="cursor: pointer;padding: 0 0 0 0;">Все</p>
-    <p id="Ab" style="cursor: pointer;padding: 5px 0 0 0;"title="Абагурт">Абагурт</p>
-	<p id="Ad" style="cursor: pointer;padding: 5px 0 0 0;"title="Адам">Адам</p>
-	<p id="Al" style="cursor: pointer;padding: 5px 0 0 0;"title="Александровка">Александровка</p>
-	<p id="Ba" style="cursor: pointer;padding: 5px 0 0 0;"title="Бабино">Бабино</p>
-	<p id="Bad" style="cursor: pointer;padding: 5px 0 0 0;"title="Бадзымшур">Бадзымшур</p>
-	<p id="Lud" style="cursor: pointer;padding: 5px 0 0 0;"title="Большой Лудошур">Большой Лудошур</p>
-	<p id="Van" style="cursor: pointer;padding: 5px 0 0 0;"title="Ванягурт">Ванягурт</p>
-	<p id="Kuz" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Верхняя Кузьма</p>
-	<p id="Slu" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Верхняя Слудка</p>
-	<p id="Gl" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Главатских</p>
-	<p id="God" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Гордъяр</p>
-	<p id="Gul" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Гулёково</p>
-	<p id="Guch" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Гучиншур</p>
-	<p id="Dzya" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Дзякино</p>
-	<p id="Chep" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Дом отдыха Чепца</p>
-	<p id="Don" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Дондыкар</p>
-	<p id="Es" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Ескино</p>
-	<p id="Zo" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Золотарево</p>
-	<p id="Iv" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Иваново</p>
-	<p id="Kar" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Карасево</p>
-	<p id="Kach" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Качка</p>
-	<p id="Ka" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Качкашур</p>
-	<p id="Kva" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Кваляр</p>
-	<p id="Ke" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Кельдыково</p>
-	<p id="Ko" style="cursor: pointer;padding: 5px 0 0 0;"title="Верхняя Кузьма">Кожиль</p>
+  <p id="vesspisok" style="cursor: pointer;">&emsp;- Все -</p>
+  <div class="details__content">    
+    <p id="Ab" style="cursor: pointer;"title="Абагурт">&emsp;"Абагурт"</p>
+	<p id="Ad" style="cursor: pointer;"title="Адам">&emsp;"Адам"</p>
+	<p id="Al" style="cursor: pointer;"title="Александровка">&emsp;"Александровка"</p>
+	<p id="Ba" style="cursor: pointer;"title="Бабино">&emsp;"Бабино"</p>
+	<p id="Bad" style="cursor: pointer;"title="Бадзымшур">&emsp;"Бадзымшур"</p>
+	<p id="Lud" style="cursor: pointer;"title="Большой Лудошур">&emsp;"Большой Лудошур"</p>
+	<p id="Van" style="cursor: pointer;"title="Ванягурт">&emsp;"Ванягурт"</p>
+	<p id="Kuz" style="cursor: pointer;"title="Верхняя Кузьма">&emsp;"Верхняя Кузьма"</p>
+	<p id="Slu" style="cursor: pointer;"title="Верхняя Слудка">&emsp;"Верхняя Слудка"</p>
+	<p id="Gl" style="cursor: pointer;"title="Главатских">&emsp;"Главатских"</p>
+	<p id="God" style="cursor: pointer;"title="Гордъяр">&emsp;"Гордъяр"</p>
+	<p id="Gul" style="cursor: pointer;"title="Гулёково">&emsp;"Гулёково"</p>
+	<p id="Guch" style="cursor: pointer;"title="Гучиншур">&emsp;"Гучиншур"</p>
+	<p id="Dzya" style="cursor: pointer;"title="Дзякино">&emsp;"Дзякино"</p>
+	<p id="Chep" style="cursor: pointer;"title="Дом отдыха Чепца">&emsp;"Дом отдыха Чепца"</p>
+	<p id="Don" style="cursor: pointer;"title="Дондыкар">&emsp;"Дондыкар"</p>
+	<p id="Es" style="cursor: pointer;"title="Ескино">&emsp;"Ескино"</p>
+	<p id="Zo" style="cursor: pointer;"title="Золотарево">&emsp;"Золотарево"</p>
+	<p id="Iv" style="cursor: pointer;"title="Иваново">&emsp;"Иваново"</p>
+	<p id="Kar" style="cursor: pointer;"title="Карасево">&emsp;"Карасево"</p>
+	<p id="Kach" style="cursor: pointer;"title="Качка">&emsp;"Качка"</p>
+	<p id="Ka" style="cursor: pointer;"title="Качкашур">&emsp;"Качкашур"</p>
+	<p id="Kva" style="cursor: pointer;"title="Кваляр">&emsp;"Кваляр"</p>
+	<p id="Ke" style="cursor: pointer;"title="Кельдыково">&emsp;"Кельдыково"</p>
+	<p id="Ko" style="cursor: pointer;"title="Кожиль">&emsp;"Кожиль"</p>
+	<p id="Kol" style="cursor: pointer;"title="Колевай">&emsp;"Колевай"</p>
+	<p id="Kor" style="cursor: pointer;"title="Коротай">&emsp;"Коротай"</p>
+	<p id="Korsh" style="cursor: pointer;"title="Коршуново">&emsp;"Коршуново"</p>
+	<p id="Kot" style="cursor: pointer;"title="Котнырево">&emsp;"Котнырево"</p>
   </div>
 </details>
 
@@ -624,7 +634,62 @@ $('.details__title').html('Кожиль');
 });
 </script>
 
+<script>
+$('#Kol').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Kol1').css({
+        'display': 'block'
+    });	
+$('.details__title').html('Колевай');	
+});
+</script>
 
+<script>
+$('#Kor').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Kor1').css({
+        'display': 'block'
+    });	
+$('.details__title').html('Коротай');	
+});
+</script>
+
+<script>
+$('#Korsh').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Korsh1').css({
+        'display': 'block'
+    });	
+$('.details__title').html('Коршуново');	
+});
+</script>
+
+<script>
+$('#Kot').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Kot1').css({
+        'display': 'block'
+    });
+    $('#Kot2').css({
+        'display': 'block'
+    });	
+    $('#Kot3').css({
+        'display': 'block'
+    });	
+    $('#Kot4').css({
+        'display': 'block'
+    });		
+$('.details__title').html('Котнырево');	
+});
+</script>
 
 
 
@@ -1831,7 +1896,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Kot1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0321.jpg">
 					<img class="front" src="img/small/0321.jpg" title="Васильев Аркадий Иванович"> 				</a>
@@ -3845,7 +3910,7 @@ $(document).ready(function(){
     });
 });
 </script>		
-				<div class="item">
+				<div id="Kor1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/085.jpg">
 					<img class="front" src="img/small/085.jpg" title="Иванов Евграф Николаевич">
@@ -3951,7 +4016,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Kol1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0376.jpg">
 					<img class="front" src="img/small/0376.jpg" title="Ившин Виктор Алексеевич"></a>
@@ -5912,7 +5977,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Korsh1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0408.jpg">
 					<img class="front" src="img/small/0408.jpg" title="Наговицын Георгий Алексеевич"></a>
@@ -6228,7 +6293,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Kot2" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0416.jpg">
 					<img class="front" src="img/small/0416.jpg" title="Перевощиков Вениамин Иванович"></a>
@@ -6334,7 +6399,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Kot3" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0186.jpg">
 					<img class="front" src="img/small/0186.jpg" title="Перевощиков Николай Семёнович"> 
@@ -7986,7 +8051,7 @@ $(document).ready(function(){
     });
 });
 </script>		
-				<div class="item">
+				<div id="Kot4" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0250.jpg">
 					<img class="front" src="img/small/0250.jpg" title="Ушаков Василий Фёдорович"> 
