@@ -37,7 +37,7 @@ body
   font-weight: bold;
   position: absolute;
   text-transform: uppercase;
-  top: 15%;
+  top: 10%;
   margin-left: 3%;
   font-size: 18px;
   color: white;
@@ -255,7 +255,6 @@ transition: top 0.3s;
 }
 
 .zagolovok{
-margin-top: 60px;
 margin-left: 30px;
 background: transparent;
 opacity: 1;
