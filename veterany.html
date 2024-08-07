@@ -162,6 +162,8 @@ $(window).on('beforeunload', function() {
 	<p id="Kyp" style="cursor: pointer;"title="Кыпка">&emsp;"Кыпка"</p>
 	<p id="Lu" style="cursor: pointer;"title="Люм">&emsp;"Люм"</p>
 	<p id="Mac" style="cursor: pointer;"title="Макшур">&emsp;"Макшур"</p>
+	<p id="Ludo" style="cursor: pointer;"title="Малый Лудошур">&emsp;"Малый Лудошур"</p>
+	<p id="Nko" style="cursor: pointer;"title="Нижний Колевай">&emsp;"Нижний Колевай"</p>
   </div>
 </details>
 
@@ -840,6 +842,41 @@ $('.item').css({
 $('.details__title').html('Макшур');	
 });
 </script>
+
+<script>
+$('#Ludo').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Ludo1').css({
+        'display': 'block'
+    });
+    $('#Ludo2').css({
+        'display': 'block'
+    });
+	$('#Ludo3').css({
+        'display': 'block'
+    });
+	$('#Ludo4').css({
+        'display': 'block'
+    });
+$('.details__title').html('Малый Лудошур');	
+});
+</script>
+
+<script>
+$('#Nko').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Nko1').css({
+        'display': 'block'
+    });
+$('.details__title').html('Нижний Колевай');	
+});
+</script>
+
+
 
 
 
@@ -4010,7 +4047,7 @@ $(document).ready(function(){
     });
 });
 </script>		
-				<div class="item">
+				<div id="Ludo1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/083.jpg">
 					<img class="front" src="img/small/083.jpg" title="Иванов Аркадий Петрович">
@@ -5755,7 +5792,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Ludo2" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0154.jpg">
 					<img class="front" src="img/small/0154.jpg" title="Медведцев Александр Филиппович">
@@ -5773,7 +5810,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Ludo3" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0155.jpg">
 					<img class="front" src="img/small/0155.jpg" title="Медведцев Аркадий Павлович">
@@ -5827,7 +5864,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Ludo4" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0158.jpg">
 					<img class="front" src="img/small/0158.jpg" title="Медведцев Николай Степанович">
@@ -6006,7 +6043,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Nko1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0406.jpg">
 					<img class="front" src="img/small/0406.jpg" title="Мышкин Алексей Григорьевич"></a>
