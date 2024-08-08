@@ -164,6 +164,8 @@ $(window).on('beforeunload', function() {
 	<p id="Mac" style="cursor: pointer;"title="Макшур">&emsp;"Макшур"</p>
 	<p id="Ludo" style="cursor: pointer;"title="Малый Лудошур">&emsp;"Малый Лудошур"</p>
 	<p id="Nko" style="cursor: pointer;"title="Нижний Колевай">&emsp;"Нижний Колевай"</p>
+	<p id="Nku" style="cursor: pointer;"title="Нижняя Кузьма">&emsp;"Нижняя Кузьма"</p>
+	<p id="Nsl" style="cursor: pointer;"title="Нижняя Слудка">&emsp;"Нижняя Слудка"</p>
   </div>
 </details>
 
@@ -876,6 +878,51 @@ $('.details__title').html('Нижний Колевай');
 });
 </script>
 
+<script>
+$('#Nku').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Nku1').css({
+        'display': 'block'
+    });
+	$('#Nku2').css({
+        'display': 'block'
+    });
+$('.details__title').html('Нижняя Кузьма');	
+});
+</script>
+
+<script>
+$('#Nsl').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Nsl1').css({
+        'display': 'block'
+    });
+	$('#Nsl2').css({
+        'display': 'block'
+    });
+	$('#Nsl3').css({
+        'display': 'block'
+    });
+	$('#Nsl4').css({
+        'display': 'block'
+    });
+	$('#Nsl5').css({
+        'display': 'block'
+    });
+	$('#Nsl6').css({
+        'display': 'block'
+    });
+	$('#Nsl7').css({
+        'display': 'block'
+    });	
+$('.details__title').html('Нижняя Слудка');	
+});
+</script>
+
 
 
 
@@ -1015,7 +1062,7 @@ $(document).ready(function(){
     });
 });
 </script>		
-		<div class="item">
+		<div id="Nsl1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0294.jpg">
 					<img class="front" src="img/small/0294.jpg" title="Агафонов Тимофей Михайлович">
@@ -1264,7 +1311,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Nsl2" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0300.jpg">
 					<img class="front" src="img/small/0300.jpg" title="Баженов Анатолий Павлович"> 				</a>
@@ -1719,7 +1766,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Nsl3" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0311.jpg">
 					<img class="front" src="img/small/0311.jpg" title="Богданов Cемён Васильевич"> 				</a>
@@ -1754,7 +1801,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Nsl4" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0312.jpg">
 					<img class="front" src="img/small/0312.jpg" title="Боталов Александр Михайлович"> 				</a>
@@ -1895,7 +1942,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Nsl5" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0315.jpg">
 					<img class="front" src="img/small/0315.jpg" title="Булдаков Вячеслав Егорович"> 				</a>
@@ -3082,7 +3129,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Nku1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0349.jpg">
 					<img class="front" src="img/small/0349.jpg" title="Главатских Иван Дмитриевич"> 				</a>
@@ -5404,7 +5451,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Nku2" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0397.jpg">
 					<img class="front" src="img/small/0397.jpg" title="Лукин Егор Фёдорович"></a>
@@ -7102,7 +7149,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Nsl6" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0427.jpg">
 					<img class="front" src="img/small/0427.jpg" title="Поздеев Яков Иванович"></a>
@@ -8083,7 +8130,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Nsl7" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0455.jpg">
 					<img class="front" src="img/small/0455.jpg" title="Тугбаев Борис Яковлевич"></a>
