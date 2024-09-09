@@ -136,11 +136,11 @@ $(window).on('beforeunload', function() {
 	<p id="Van" style="cursor: pointer;"title="Ванягурт">&emsp;"Ванягурт"</p>
 	<p id="Kuz" style="cursor: pointer;"title="Верхняя Кузьма">&emsp;"Верхняя Кузьма"</p>
 	<p id="Slu" style="cursor: pointer;"title="Верхняя Слудка">&emsp;"Верхняя Слудка"</p>
+	<p id="Vla" style="cursor: pointer;"title="Владимир">&emsp;"Владимир"</p>
 	<p id="Gl" style="cursor: pointer;"title="Главатских">&emsp;"Главатских"</p>
 	<p id="Glaz" style="cursor: pointer;"title="Глазов">&emsp;"Глазов"</p>
 	<p id="God" style="cursor: pointer;"title="Гордъяр">&emsp;"Гордъяр"</p>
 	<p id="Gul" style="cursor: pointer;"title="Гулёково">&emsp;"Гулёково"</p>
-	<p id="Guch" style="cursor: pointer;"title="Гучиншур">&emsp;"Гучиншур"</p>
 	<p id="Dzya" style="cursor: pointer;"title="Дзякино">&emsp;"Дзякино"</p>
 	<p id="Chep" style="cursor: pointer;"title="Дом отдыха Чепца">&emsp;"Дом отдыха Чепца"</p>
 	<p id="Don" style="cursor: pointer;"title="Дондыкар">&emsp;"Дондыкар"</p>
@@ -162,6 +162,7 @@ $(window).on('beforeunload', function() {
 	<p id="Lu" style="cursor: pointer;"title="Люм">&emsp;"Люм"</p>
 	<p id="Mac" style="cursor: pointer;"title="Макшур">&emsp;"Макшур"</p>
 	<p id="Ludo" style="cursor: pointer;"title="Малый Лудошур">&emsp;"Малый Лудошур"</p>
+	<p id="Mos" style="cursor: pointer;"title="Москва">&emsp;"Москва"</p>
 	<p id="Nko" style="cursor: pointer;"title="Нижний Колевай">&emsp;"Нижний Колевай"</p>
 	<p id="Nku" style="cursor: pointer;"title="Нижняя Кузьма">&emsp;"Нижняя Кузьма"</p>
 	<p id="Nsl" style="cursor: pointer;"title="Нижняя Слудка">&emsp;"Нижняя Слудка"</p>
@@ -179,6 +180,22 @@ $(window).on('beforeunload', function() {
 	<p id="Pud" style="cursor: pointer;"title="Пудвай">&emsp;"Пудвай"</p>
 	<p id="Pus" style="cursor: pointer;"title="Пусошур">&emsp;"Пусошур"</p>
 	<p id="Pysh" style="cursor: pointer;"title="Пышкец">&emsp;"Пышкец"</p>
+	<p id="Rostov" style="cursor: pointer;"title="Ростов-на-Дону">&emsp;"Ростов-на-Дону"</p>
+	<p id="Sev" style="cursor: pointer;"title="Сёва">&emsp;"Сёва"</p>
+	<p id="Sep" style="cursor: pointer;"title="Сепыч">&emsp;"Сепыч"</p>
+	<p id="Sim" style="cursor: pointer;"title="Симашур">&emsp;"Симашур"</p>
+	<p id="Sol" style="cursor: pointer;"title="Солдырь">&emsp;"Солдырь"</p>
+	<p id="Syan" style="cursor: pointer;"title="Сянино">&emsp;"Сянино"</p>
+	<p id="Taga" style="cursor: pointer;"title="Тагапи">&emsp;"Тагапи"</p>
+	<p id="Tat" style="cursor: pointer;"title="Татарские Парзи">&emsp;"Татарские Парзи"</p>
+	<p id="Tek" style="cursor: pointer;"title="Тек">&emsp;"Тек"</p>
+	<p id="Tot" style="cursor: pointer;"title="Тотош">&emsp;"Тотош"</p>
+	<p id="Trub" style="cursor: pointer;"title="Трубашур">&emsp;"Трубашур"</p>
+	<p id="Tug" style="cursor: pointer;"title="Тукбулатово">&emsp;"Тукбулатово"</p>
+	<p id="Tyap" style="cursor: pointer;"title="Тяпык">&emsp;"Тяпык"</p>
+	<p id="Uva" style="cursor: pointer;"title="Ува">&emsp;"Ува"</p>
+	<p id="UKlu" style="cursor: pointer;"title="Удмуртские Ключи">&emsp;"Удмуртские Ключи"</p>
+	<p id="Umsk" style="cursor: pointer;"title="Умск">&emsp;"Умск"</p>
   </div>
 </details>
 
@@ -367,6 +384,18 @@ $('.details__title').html('Верхняя Слудка');
 </script>
 
 <script>
+$('#Vla').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Vla1').css({
+        'display': 'block'
+    });	
+$('.details__title').html('Владимир');	
+});
+</script>
+
+<script>
 $('#Gl').click(function() {
 $('.item').css({
         'display': 'none'
@@ -384,6 +413,9 @@ $('.item').css({
         'display': 'none'
     });
     $('#Glaz1').css({
+        'display': 'block'
+    });
+    $('#Glaz2').css({
         'display': 'block'
     });	
 $('.details__title').html('Глазов');	
@@ -438,18 +470,6 @@ $('.item').css({
         'display': 'block'
     });	
 $('.details__title').html('Гулёково');	
-});
-</script>
-
-<script>
-$('#Guch').click(function() {
-$('.item').css({
-        'display': 'none'
-    });
-    $('#Guch1').css({
-        'display': 'block'
-    });	
-$('.details__title').html('Гучиншур');	
 });
 </script>
 
@@ -556,9 +576,6 @@ $('.details__title').html('Качка');
 $('#Ka').click(function() {
 $('.item').css({
         'display': 'none'
-    });
-    $('#Ka1').css({
-        'display': 'block'
     });
     $('#Ka2').css({
         'display': 'block'
@@ -873,6 +890,18 @@ $('.item').css({
         'display': 'block'
     });
 $('.details__title').html('Малый Лудошур');	
+});
+</script>
+
+<script>
+$('#Mos').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Mos1').css({
+        'display': 'block'
+    });
+$('.details__title').html('Москва');	
 });
 </script>
 
@@ -1458,6 +1487,330 @@ $('.details__title').html('Пышкец');
 });
 </script>
 
+<script>
+$('#Rostov').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Rostov1').css({
+        'display': 'block'
+    });
+$('.details__title').html('Ростов-на-Дону');	
+});
+</script>
+
+<script>
+$('#Sev').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Sev1').css({
+        'display': 'block'
+    });
+	    $('#Sev2').css({
+        'display': 'block'
+    });
+		$('#Sev3').css({
+        'display': 'block'
+    });
+	    $('#Sev4').css({
+        'display': 'block'
+    });
+	    $('#Sev5').css({
+        'display': 'block'
+    });
+	    $('#Sev6').css({
+        'display': 'block'
+    });
+	    $('#Sev7').css({
+        'display': 'block'
+    });
+	    $('#Sev8').css({
+        'display': 'block'
+    });
+	    $('#Sev9').css({
+        'display': 'block'
+    });
+	    $('#Sev10').css({
+        'display': 'block'
+    });
+	    $('#Sev11').css({
+        'display': 'block'
+    });
+	    $('#Sev12').css({
+        'display': 'block'
+    });
+	    $('#Sev13').css({
+        'display': 'block'
+    });
+	    $('#Sev14').css({
+        'display': 'block'
+    });
+	    $('#Sev15').css({
+        'display': 'block'
+    });
+	    $('#Sev16').css({
+        'display': 'block'
+    });
+	    $('#Sev17').css({
+        'display': 'block'
+    });	
+$('.details__title').html('Сёва');	
+});
+</script>
+
+<script>
+$('#Sep').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Sep1').css({
+        'display': 'block'
+    });
+	    $('#Sep2').css({
+        'display': 'block'
+    });
+	    $('#Sep3').css({
+        'display': 'block'
+    });
+	    $('#Sep4').css({
+        'display': 'block'
+    });	
+$('.details__title').html('Сепыч');	
+});
+</script>
+
+<script>
+$('#Sim').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Sim1').css({
+        'display': 'block'
+    });
+	$('#Sim2').css({
+        'display': 'block'
+    });
+$('.details__title').html('Симашур');	
+});
+</script>
+
+<script>
+$('#Sol').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Sol1').css({
+        'display': 'block'
+    });
+	$('#Sol2').css({
+        'display': 'block'
+    });
+$('.details__title').html('Солдырь');	
+});
+</script>
+
+<script>
+$('#Syan').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Syan1').css({
+        'display': 'block'
+    });
+	$('#Syan2').css({
+        'display': 'block'
+    });
+	$('#Syan3').css({
+        'display': 'block'
+    });	
+$('.details__title').html('Сянино');	
+});
+</script>
+
+<script>
+$('#Taga').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Taga1').css({
+        'display': 'block'
+    });
+$('.details__title').html('Тагапи');	
+});
+</script>
+
+<script>
+$('#Tat').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Tat1').css({
+        'display': 'block'
+    });
+    $('#Tat2').css({
+        'display': 'block'
+    });
+    $('#Tat3').css({
+        'display': 'block'
+    });
+    $('#Tat4').css({
+        'display': 'block'
+    });
+    $('#Tat5').css({
+        'display': 'block'
+    });
+    $('#Tat6').css({
+        'display': 'block'
+    });
+    $('#Tat7').css({
+        'display': 'block'
+    });	
+$('.details__title').html('Татарские Парзи');	
+});
+</script>
+
+<script>
+$('#Tek').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Tek1').css({
+        'display': 'block'
+    });
+    $('#Tek2').css({
+        'display': 'block'
+    });
+    $('#Tek3').css({
+        'display': 'block'
+    });
+$('.details__title').html('Тек');	
+});
+</script>
+
+<script>
+$('#Tot').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Tot1').css({
+        'display': 'block'
+    });
+$('.details__title').html('Тотош');	
+});
+</script>
+
+<script>
+$('#Trub').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Trub1').css({
+        'display': 'block'
+    });
+    $('#Trub2').css({
+        'display': 'block'
+    });
+    $('#Trub3').css({
+        'display': 'block'
+    });
+    $('#Trub4').css({
+        'display': 'block'
+    });
+    $('#Trub5').css({
+        'display': 'block'
+    });
+    $('#Trub6').css({
+        'display': 'block'
+    });
+    $('#Trub7').css({
+        'display': 'block'
+    });
+    $('#Trub8').css({
+        'display': 'block'
+    });	
+$('.details__title').html('Трубашур');	
+});
+</script>
+
+<script>
+$('#Tug').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Tug1').css({
+        'display': 'block'
+    });
+$('.details__title').html('Тукбулатово');	
+});
+</script>
+
+<script>
+$('#Tyap').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Tyap1').css({
+        'display': 'block'
+    });
+	$('#Tyap2').css({
+        'display': 'block'
+    });
+$('.details__title').html('Тяпык');	
+});
+</script>
+
+<script>
+$('#Uva').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Uva1').css({
+        'display': 'block'
+    });
+$('.details__title').html('Ува');	
+});
+</script>
+
+<script>
+$('#UKlu').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#UKlu1').css({
+        'display': 'block'
+    });
+    $('#UKlu2').css({
+        'display': 'block'
+    });	
+$('.details__title').html('Удмуртские Ключи');	
+});
+</script>
+
+<script>
+$('#Umsk').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Umsk1').css({
+        'display': 'block'
+    });
+    $('#Umsk2').css({
+        'display': 'block'
+    });
+    $('#Umsk3').css({
+        'display': 'block'
+    });
+    $('#Umsk4').css({
+        'display': 'block'
+    });	
+$('.details__title').html('Умск');	
+});
+</script>
+
+
+
+
 
 
 
@@ -1701,7 +2054,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sep1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/010.jpg">
 					<img class="front" src="img/small/010.jpg" title="Антонов Константин Владимирович"> 
@@ -1771,7 +2124,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Trub1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/011.jpg">
 					<img class="front" src="img/small/011.jpg" title="Ассылов Никифор Петрович"> 
@@ -1859,7 +2212,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Tyap1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0301.jpg">
 					<img class="front" src="img/small/0301.jpg" title="Баженов Андриан Фёдорович"> 				</a>
@@ -2121,7 +2474,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Rostov1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0307.jpg">
 					<img class="front" src="img/small/0307.jpg" title="Блинов Филипп Акимович"> 				</a>
@@ -2174,7 +2527,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sol1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0308.jpg">
 					<img class="front" src="img/small/0308.jpg" title="Богданов Аркадий Филиппович"> 				</a>
@@ -2191,7 +2544,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Taga1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0309.jpg">
 					<img class="front" src="img/small/0309.jpg" title="Богданов Василий Андреевич"> 				</a>
@@ -2244,7 +2597,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sim1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0310.jpg">
 					<img class="front" src="img/small/0310.jpg" title="Богданов Леонид Николаевич"> 				</a>
@@ -2261,7 +2614,7 @@ $(document).ready(function(){
     });
 });
 </script>		
-				<div class="item">
+				<div id="Sol2" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/027.jpg">
 					<img class="front" src="img/small/027.jpg" title="Богданов Михаил Михайлович">
@@ -2524,7 +2877,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sev1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0317.jpg">
 					<img class="front" src="img/small/0317.jpg" title="Булычев Фёдор Никитьевич"> 				</a>
@@ -2559,7 +2912,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sev2" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0318.jpg">
 					<img class="front" src="img/small/0318.jpg" title="Бушмакин Иван Васильевич"> 				</a>
@@ -2594,7 +2947,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sev3" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0319.jpg">
 					<img class="front" src="img/small/0319.jpg" title="Варанкин Влас Матвеевич"> 				</a>
@@ -2629,7 +2982,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sev4" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0320.jpg">
 					<img class="front" src="img/small/0320.jpg" title="Васенин Александр Дмитриевич"> 				</a>
@@ -3046,7 +3399,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sep2" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0333.jpg">
 					<img class="front" src="img/small/0333.jpg" title="Волков Антон Ильич"> 				</a>
@@ -3116,7 +3469,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sep3" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0264.jpg">
 					<img class="front" src="img/small/0264.jpg" title="Волков Григорий Иванович">
@@ -3326,7 +3679,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Umsk1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0341.jpg">
 					<img class="front" src="img/small/0341.jpg" title="Ворончихин Анатолий Никитович"> 				</a>
@@ -3343,7 +3696,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div id="Ka1" class="item">
+		<div id="Umsk2" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0342.jpg">
 					<img class="front" src="img/small/0342.jpg" title="Ворончихин Аркадий Павлович"> 				</a>
@@ -3521,7 +3874,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sev5" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0344.jpg">
 					<img class="front" src="img/small/0344.jpg" title="Габов Пётр Семенович"> 				</a>
@@ -3556,7 +3909,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="UKlu1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0345.jpg">
 					<img class="front" src="img/small/0345.jpg" title="Главатских Алексей Аверьянович"> 				</a>
@@ -3573,7 +3926,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Trub2" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0346.jpg">
 					<img class="front" src="img/small/0346.jpg" title="Главатских Алексей Васильевич"> 				</a>
@@ -3607,7 +3960,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Trub3" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/075.jpg">
 					<img class="front" src="img/small/075.jpg" title="Главатских Афанасий Петрович"> 
@@ -3625,7 +3978,7 @@ $(document).ready(function(){
     });
 });
 </script>		
-		        <div class="item">
+		        <div id="Trub4" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/077.jpg">
 					<img class="front" src="img/small/077.jpg" title="Главатских Всеволод Ионович"> 
@@ -3643,7 +3996,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Glaz2" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0348.jpg">
 					<img class="front" src="img/small/0348.jpg" title="Главатских Дмитрий Дмитриевич"> 				</a>
@@ -3677,7 +4030,7 @@ $(document).ready(function(){
     });
 });
 </script>		
-		<div class="item">
+		<div id="Syan1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/076.jpg">
 					<img class="front" src="img/small/076.jpg" title="Главатских Пётр Дмитриевич"> 
@@ -3695,7 +4048,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Syan2" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0350.jpg">
 					<img class="front" src="img/small/0350.jpg" title="Главатских Пётр Николаевич"> 				</a>
@@ -3851,7 +4204,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sev6" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0355.jpg">
 					<img class="front" src="img/small/0355.jpg" title="Гудков Иван Иванович"> 				</a>
@@ -4289,7 +4642,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Tek1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0367.jpg">
 					<img class="front" src="img/small/0367.jpg" title="Жуйков Аркадий Кузьмич"> 				</a>
@@ -4696,7 +5049,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sep4" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0374.jpg">
 					<img class="front" src="img/small/0374.jpg" title="Иванов Ефим (Ефрем) Николаевич"></a>
@@ -4853,7 +5206,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sev7" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0379.jpg">
 					<img class="front" src="img/small/0379.jpg" title="Казанцев Николай Романович"></a>
@@ -4870,7 +5223,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sev8" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0380.jpg">
 					<img class="front" src="img/small/0380.jpg" title="Казаченко Степан Васильевич"></a>
@@ -4923,7 +5276,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div id="Guch1" class="item">
+		<div id="Vla1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0382.jpg">
 					<img class="front" src="img/small/0382.jpg" title="Караваев Андриан Ильич"></a>
@@ -5065,7 +5418,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Tat1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/099.jpg">
 					<img class="front" src="img/small/099.jpg" title="Касимов Гайнан Ризванович"> 
@@ -5101,7 +5454,7 @@ $(document).ready(function(){
     });
 });
 </script>		
-						<div class="item">
+						<div id="Tat2" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/098.jpg">
 					<img class="front" src="img/small/098.jpg" title="Касимов Гаязутдин Назмутдинович">
@@ -5137,7 +5490,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Tat3" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0384.jpg">
 					<img class="front" src="img/small/0384.jpg" title="Касимов Гинатулла Гатауллович"></a>
@@ -5154,7 +5507,7 @@ $(document).ready(function(){
     });
 });
 </script>		
-		        <div class="item">
+		        <div id="Tat4" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0107.jpg">
 					<img class="front" src="img/small/0107.jpg" title="Касимов Зайнутдин Габдулхадырович"> 
@@ -5172,7 +5525,7 @@ $(document).ready(function(){
     });
 });
 </script>		
-				<div class="item">
+				<div id="Tat5" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0103.jpg">
 					<img class="front" src="img/small/0103.jpg" title="Касимов Нурулла Гильмутдинович"> 
@@ -5190,7 +5543,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Tat6" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0104.jpg">
 					<img class="front" src="img/small/0104.jpg" title="Касимов Самигулла Зарифович">
@@ -5208,7 +5561,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Tat7" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0385.jpg">
 					<img class="front" src="img/small/0385.jpg" title="Касимов Султан Гусманович"></a>
@@ -5437,12 +5790,12 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sev9" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0388.jpg">
-					<img class="front" src="img/small/0388.jpg" title="Кораблёв Иван Нипкифорович"></a>
-				<a href="https://cloud.mail.ru/public/ed4Z/yq8LgvoQu" target="_blank" title="Кораблёв Иван Нипкифорович"><img id="btn772" class="btnhov" src="images/knopkaIstoria.svg" width="100" height="29" border="0"></a>
-                <a href="https://cloud.mail.ru/public/ed4Z/yq8LgvoQu" target="_blank" title="Кораблёв Иван Нипкифорович"><img id="btn773" src="images/knopkaIstoria2.svg" width="100" height="29" border="0" style="display: none;"></a>	
+					<img class="front" src="img/small/0388.jpg" title="Кораблёв Иван Никифорович"></a>
+				<a href="https://cloud.mail.ru/public/ed4Z/yq8LgvoQu" target="_blank" title="Кораблёв Иван Никифорович"><img id="btn772" class="btnhov" src="images/knopkaIstoria.svg" width="100" height="29" border="0"></a>
+                <a href="https://cloud.mail.ru/public/ed4Z/yq8LgvoQu" target="_blank" title="Кораблёв Иван Никифорович"><img id="btn773" src="images/knopkaIstoria2.svg" width="100" height="29" border="0" style="display: none;"></a>	
 			</div>
 		</div>
 
@@ -5823,7 +6176,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="UKlu2" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0394.jpg">
 					<img class="front" src="img/small/0394.jpg" title="Ларионов Ион Михайлович"></a>
@@ -6016,7 +6369,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sev10" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0399.jpg">
 					<img class="front" src="img/small/0399.jpg" title="Лучников Григорий Павлович"></a>
@@ -6033,7 +6386,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sev11" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0400.jpg">
 					<img class="front" src="img/small/0400.jpg" title="Лучникова Анисья Степановна"></a>
@@ -6228,7 +6581,7 @@ $(document).ready(function(){
     });
 });
 </script>		
-				<div class="item">
+				<div id="Trub5" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0147.jpg">
 					<img class="front" src="img/small/0147.jpg" title="Максимов Николай Миронович">
@@ -6903,7 +7256,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Tyap2" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0412.jpg">
 					<img class="front" src="img/small/0412.jpg" title="Невоструев Алексей Игнатьевич"></a>
@@ -6920,7 +7273,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Tug1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0413.jpg">
 					<img class="front" src="img/small/0413.jpg" title="Невоструев Алексей Романович"></a>
@@ -6955,7 +7308,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sev12" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0414.jpg">
 					<img class="front" src="img/small/0414.jpg" title="Некрасов Николай Фёдорович"></a>
@@ -6990,7 +7343,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Mos1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0415.jpg">
 					<img class="front" src="img/small/0415.jpg" title="Опалев Иван Васильевич"></a>
@@ -7007,7 +7360,7 @@ $(document).ready(function(){
     });
 });
 </script>		
-				<div class="item">
+				<div id="Tot1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0178.jpg">
 					<img class="front" src="img/small/0178.jpg" title="Охотников Прокопий Лаврентьевич">
@@ -7025,7 +7378,7 @@ $(document).ready(function(){
     });
 });
 </script>		
-				<div class="item">
+				<div id="Umsk3" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0180.jpg">
 					<img class="front" src="img/small/0180.jpg" title="Перевощиков Алексей Семёнович">
@@ -7095,7 +7448,7 @@ $(document).ready(function(){
     });
 });
 </script>		
-				<div class="item">
+				<div id="Umsk4" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0183.jpg">
 					<img class="front" src="img/small/0183.jpg" title="Перевощиков Гаврил Егорович">
@@ -7383,7 +7736,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Trub6" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0419.jpg">
 					<img class="front" src="img/small/0419.jpg" title="Плетнёв Степан Иосипович"></a>
@@ -7614,7 +7967,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Uva1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0422.jpg">
 					<img class="front" src="img/small/0422.jpg" title="Поздеев Павел Михайлович"></a>
@@ -7665,7 +8018,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Syan3" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0425.jpg">
 					<img class="front" src="img/small/0425.jpg" title="Поздеев Сергей Михайлович"></a>
@@ -7733,7 +8086,7 @@ $(document).ready(function(){
     });
 });
 </script>
-        <div class="item">
+        <div id="Sev13" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0197.jpg">
 					<img class="front" src="img/small/0197.jpg" title="Полтанов Иван Дмитриевич"> 
@@ -7769,7 +8122,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Tek2" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0429.jpg">
 					<img class="front" src="img/small/0429.jpg" title="Пономарёв Андриян Никитович"></a>
@@ -7820,7 +8173,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Tek3" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0432.jpg">
 					<img class="front" src="img/small/0432.jpg" title="Пономарёв Николай Павлович"></a>
@@ -8137,7 +8490,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sev14" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0439.jpg">
 					<img class="front" src="img/small/0439.jpg" title="Селуков Роман Федотович"></a>
@@ -8540,7 +8893,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sev15" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0450.jpg">
 					<img class="front" src="img/small/0450.jpg" title="Тебеньков Алексей Степанович"></a>
@@ -8574,7 +8927,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sim2" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0452.jpg">
 					<img class="front" src="img/small/0452.jpg" title="Третьяков Василий Семёнович"></a>
@@ -8821,7 +9174,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Trub7" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0458.jpg">
 					<img class="front" src="img/small/0458.jpg" title="Ушаков Александр Фёдорович"></a>
@@ -9050,7 +9403,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sev16" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0463.jpg">
 					<img class="front" src="img/small/0463.jpg" title="Черанёв Григорий Платонович"></a>
@@ -9067,7 +9420,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Sev17" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0464.jpg">
 					<img class="front" src="img/small/0464.jpg" title="Черанёв Николай Прокопьевич"></a>
@@ -9188,7 +9541,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Trub8" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/041.jpg">
 					<img class="front" src="img/small/041.jpg" title="Чирков Афанасий Устинович"> </a>
