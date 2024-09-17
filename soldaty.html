@@ -9,15 +9,27 @@
 <link href="css/imenaVOv3.css" rel="stylesheet">
 <link href="css/soldaty.css" rel="stylesheet">
 <canvas id="c"></canvas>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/lightbox.css">
+<link rel="stylesheet" href="css/lightbox2.css">
+<link rel="stylesheet" href="css/lightbox3.css">
+<script src="js/1945.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <meta content="max-age=3600, must-revalidate" http-equiv="Cache-Control">
 <meta content="max-age=3600, proxy-revalidate" http-equiv="Cache-Control">
 </head>
 <body style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">
-<div class="preloader" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">
+<div class="preloader">
 <div>
 <img src="images/preloader.gif" width="200" height="200" alt="">
 </div>
 </div>
+<script>
+$(window).on('beforeunload', function() {
+  $('body').hide();
+  $(window).scrollTop(0);
+});
+</script>
 <div id="container" style="-moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; user-select: none;">
 <!-- imenaHTML -->
   <div class="wrapper">
@@ -34,6 +46,7 @@
 <script src="js/jquery.min.js"></script>
 <script src="js/parallax.min.js"></script>
 <script src="js/script.js"></script>
+<script src="js/script2.js"></script>
 </div>
 
 <div id="wb_imena1.jpg" style="position:absolute;left:133px;top:0px;width:310px;height:247px;visibility:hidden;z-index:2;">
@@ -41,6 +54,102 @@
 <div id="wb_preloader.gif" style="position:absolute;left:241px;top:144px;width:300px;height:300px;visibility:hidden;z-index:3;">
 <img src="images/preloader.gif" id="preloader.gif" alt=""></div>
 </div>
+
+<div id="PhotoGallery">
+ <div class="wrapper2">
+	
+	<div class="gallery">		
+
+<script>
+$(document).ready(function(){
+	$('img.btnhov').hover(
+  function() { $(this).attr('src', 'images/knopkaIstoria2.svg'); },
+  function() { $(this).attr('src', 'images/knopkaIstoria.svg'); }
+);
+});
+</script>
+	
+<script>
+$(document).ready(function(){
+    $('#btn10000').on("click", function(){
+        $('#btn10000').toggle(); 
+		$('#btn10001').toggle();
+    });
+	});
+</script>		
+		<div class="item">
+			<div>
+				<a data-lightbox="lightbox" href="imgSold/big/s1.jpg">
+					<img class="front" src="imgSold/small/s1.jpg" title="Бабинцев Аркадий Яковлевич">
+				</a>
+                <a href="https://cloud.mail.ru/public/ZWFt/1T5e5VYAV" target="_blank" title="Бабинцев Аркадий Яковлевич"><img id="btn10000" class="btnhov" src="images/knopkaIstoria.svg" width="100" height="29" border="0"></a>	
+                <a href="https://cloud.mail.ru/public/ZWFt/1T5e5VYAV" target="_blank" title="Бабинцев Аркадий Яковлевич"><img id="btn10001" src="images/knopkaIstoria2.svg" width="100" height="29" border="0" style="display: none;"></a>   
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){
+    $('#btn10002').on("click", function(){
+        $('#btn10002').toggle(); 
+		$('#btn10003').toggle();
+    });
+	});
+</script>		
+		<div class="item">
+			<div>
+				<a data-lightbox="lightbox" href="imgSold/big/s2.jpg">
+					<img class="front" src="imgSold/small/s2.jpg" title="Бабинцев Василий Александрович">
+				</a>
+                <a href="https://cloud.mail.ru/public/3Nw7/bTTmSUNwN" target="_blank" title="Бабинцев Василий Александрович"><img id="btn10002" class="btnhov" src="images/knopkaIstoria.svg" width="100" height="29" border="0"></a>	
+                <a href="https://cloud.mail.ru/public/3Nw7/bTTmSUNwN" target="_blank" title="Бабинцев Василий Александрович"><img id="btn10003" src="images/knopkaIstoria2.svg" width="100" height="29" border="0" style="display: none;"></a>   
+			</div>
+		</div>
+		
+<script>
+$(document).ready(function(){
+    $('#btn10004').on("click", function(){
+        $('#btn10004').toggle(); 
+		$('#btn10005').toggle();
+    });
+	});
+</script>		
+		<div class="item">
+			<div>
+				<a data-lightbox="lightbox" href="imgSold/big/s3.jpg">
+					<img class="front" src="imgSold/small/s3.jpg" title="Баженов Борис Дмитриевич">
+				</a>
+                <a href="https://cloud.mail.ru/public/UEPw/bV5Vu1CAk" target="_blank" title="Баженов Борис Дмитриевич"><img id="btn10004" class="btnhov" src="images/knopkaIstoria.svg" width="100" height="29" border="0"></a>	
+                <a href="https://cloud.mail.ru/public/UEPw/bV5Vu1CAk" target="_blank" title="Баженов Борис Дмитриевич"><img id="btn10005" src="images/knopkaIstoria2.svg" width="100" height="29" border="0" style="display: none;"></a>   
+			</div>
+		</div>
+
+
+		
+		
+		
+    </div>
+ </div>
+</div>
+
+<script src="js/lightbox-plus-jquery.min.js"></script>
+
+<script type="text/javascript">
+$(function() {
+$(window).scroll(function() {
+if($(this).scrollTop() > 100) {
+$('#toTop').fadeIn();
+} else {
+$('#toTop').fadeOut();
+}
+});
+$('#toTop').click(function() {
+$('body,html').animate({scrollTop:0},800); return false;
+});
+});
+</script>
+
+<DIV ID = "toTop"><a href="#" class="button9" > ^ Наверх </a></DIV>
+
 <script>
     $(window).on('load', function(){
 	$('.preloader').delay(700).fadeOut('slow');

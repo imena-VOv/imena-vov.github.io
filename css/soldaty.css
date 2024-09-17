@@ -235,3 +235,29 @@ body {
 		  top: 50vh;
           margin: -120px 0 0 -90px;		  
 	}
+	
+#toTop {
+width:100px;
+text-align:center;
+padding:3px;
+position:fixed;
+bottom:10px;
+right:10px;
+cursor:pointer;
+display:none;
+font-family:verdana;
+font-size:14px;
+}
+a.button9 {
+  display: inline-block;
+  color: #303030;
+  font-weight: 700;
+  text-decoration: none;
+  user-select: none;
+  padding: .3em 1em;
+  outline: none;
+  border: 2px solid;
+  border-radius: 1px;
+  transition: 0.2s;
+} 
+a.button9:hover { background: rgba(255,255,255,.2); }	

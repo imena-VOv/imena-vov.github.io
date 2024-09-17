@@ -199,6 +199,9 @@ $(window).on('beforeunload', function() {
 	<p id="Ust" style="cursor: pointer;"title="Усть-Пышкец">&emsp;"Усть-Пышкец"</p>
 	<p id="Chir" style="cursor: pointer;"title="Чиргино">&emsp;"Чиргино"</p>
 	<p id="Shta" style="cursor: pointer;"title="Штанигурт">&emsp;"Штанигурт"</p>
+	<p id="Shud" style="cursor: pointer;"title="Шудзя">&emsp;"Шудзя"</p>
+	<p id="Yag" style="cursor: pointer;"title="Ягошур">&emsp;"Ягошур"</p>
+	<p id="Yak" style="cursor: pointer;"title="Якшино">&emsp;"Якшино"</p>
   </div>
 </details>
 
@@ -1892,9 +1895,47 @@ $('.details__title').html('Штанигурт');
 });
 </script>
 
+<script>
+$('#Shud').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Shud1').css({
+        'display': 'block'
+    });	
+$('.details__title').html('Шудзя');	
+});
+</script>
 
+<script>
+$('#Yag').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Yag1').css({
+        'display': 'block'
+    });	
+$('.details__title').html('Ягошур');	
+});
+</script>
 
-
+<script>
+$('#Yak').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Yak1').css({
+        'display': 'block'
+    });
+    $('#Yak2').css({
+        'display': 'block'
+    });
+    $('#Yak3').css({
+        'display': 'block'
+    });	
+$('.details__title').html('Якшино');	
+});
+</script>
 
 
 <div id="PhotoGallery">
@@ -3565,7 +3606,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Yak1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0263.jpg">
 					<img class="front" src="img/small/0263.jpg" title="Волков Артемий Григорьевич">
@@ -3880,7 +3921,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Yak2" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0272.jpg">
 					<img class="front" src="img/small/0272.jpg" title="Ворончихин Гавриил Алексеевич">
@@ -6870,7 +6911,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Yak3" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0153.jpg">
 					<img class="front" src="img/small/0153.jpg" title="Марков Павел Якимович">
@@ -8286,12 +8327,12 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Yag1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0428.jpg">
-					<img class="front" src="img/small/0428.jpg" title="Поздеева  Зоя Сергеевна"></a>
-				<a href="https://cloud.mail.ru/public/thTe/amTRY8prp" target="_blank" title="Поздеева  Зоя Сергеевна"><img id="btn852" class="btnhov" src="images/knopkaIstoria.svg" width="100" height="29" border="0"></a>
-                <a href="https://cloud.mail.ru/public/thTe/amTRY8prp" target="_blank" title="Поздеева  Зоя Сергеевна"><img id="btn853" src="images/knopkaIstoria2.svg" width="100" height="29" border="0" style="display: none;"></a>	
+					<img class="front" src="img/small/0428.jpg" title="Поздеева Зоя Сергеевна"></a>
+				<a href="https://cloud.mail.ru/public/thTe/amTRY8prp" target="_blank" title="Поздеева Зоя Сергеевна"><img id="btn852" class="btnhov" src="images/knopkaIstoria.svg" width="100" height="29" border="0"></a>
+                <a href="https://cloud.mail.ru/public/thTe/amTRY8prp" target="_blank" title="Поздеева Зоя Сергеевна"><img id="btn853" src="images/knopkaIstoria2.svg" width="100" height="29" border="0" style="display: none;"></a>	
 			</div>
 		</div>
 
@@ -10377,7 +10418,7 @@ $(document).ready(function(){
     });
 });
 </script>
-		<div class="item">
+		<div id="Shud1" class="item">
 			<div>
 				<a data-lightbox="lightbox" href="img/big/0476.jpg">
 					<img class="front" src="img/small/0476.jpg" title="Щепин Алексей Павлович"></a>
