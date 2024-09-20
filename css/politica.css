@@ -35,11 +35,11 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-track {
   -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
-  background-color: #f9f9fd;
+  background-color: #888888;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #C1C468;
+  background-color: #888888;
   background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .25) 25%,
                     transparent 25%,
                     transparent 50%,
@@ -52,7 +52,7 @@ body::-webkit-scrollbar-thumb {
 :root {
   /* For Firefox */
   overflow-y: auto;
-  scrollbar-color: #C1C468 #fff;
+  scrollbar-color: #888888 #fff;
   scrollbar-width: thin;
   border-radius: 10px;
 }
