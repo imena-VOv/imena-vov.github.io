@@ -1,0 +1,58 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: #f9f9fd;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #C1C468;
+  background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .25) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, .25) 50%,
+                    rgba(255, 255, 255, .25) 75%,
+                    transparent 75%,
+                    transparent);
+  border-radius: 10px;
+}
+:root {
+  /* For Firefox */
+  overflow-y: auto;
+  scrollbar-color: #C1C468 #fff;
+  scrollbar-width: thin;
+  border-radius: 10px;
+}
