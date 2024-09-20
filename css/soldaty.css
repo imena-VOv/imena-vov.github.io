@@ -261,3 +261,31 @@ a.button9 {
   transition: 0.2s;
 } 
 a.button9:hover { background: rgba(255,255,255,.2); }	
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(34, 60, 80, 0.2) inset;
+  background-color: #888888;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888888;
+  background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .25) 25%,
+                    transparent 25%,
+                    transparent 50%,
+                    rgba(255, 255, 255, .25) 50%,
+                    rgba(255, 255, 255, .25) 75%,
+                    transparent 75%,
+                    transparent);
+  border-radius: 10px;
+}
+:root {
+  /* For Firefox */
+  overflow-y: auto;
+  scrollbar-color: #888888 #fff;
+  scrollbar-width: thin;
+  border-radius: 10px;
+}
