@@ -179,6 +179,7 @@ $(window).on('beforeunload', function() {
 	<p id="Pap" style="cursor: pointer;"title="Папогово">&emsp;"Папогово"</p>
 	<p id="Par" style="cursor: pointer;"title="Парзи">&emsp;"Парзи"</p>
 	<p id="Ped" style="cursor: pointer;"title="Педоново">&emsp;"Педоново"</p>
+	<p id="Perm" style="cursor: pointer;"title="Пермь">&emsp;"Пермь"</p>
 	<p id="Peche" style="cursor: pointer;"title="Печешур">&emsp;"Печешур"</p>
 	<p id="Pol" style="cursor: pointer;"title="Полынга">&emsp;"Полынга"</p>
 	<p id="Pon" style="cursor: pointer;"title="Понино">&emsp;"Понино"</p>
@@ -1436,6 +1437,18 @@ $('.item').css({
         'display': 'block'
     });
 $('.details__title').html('Печешур');	
+});
+</script>
+
+<script>
+$('#Perm').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Perm1').css({
+        'display': 'block'
+    });
+$('.details__title').html('Пермь');	
 });
 </script>
 
@@ -6568,6 +6581,23 @@ $(document).ready(function(){
 				</a>
 				<a href="https://cloud.mail.ru/public/jsXD/3f1nejh5d" target="_blank" title="Кропотин Иван Фёдорович"><img id="btn278" class="btnhov" src="images/knopkaIstoria.svg" width="100" height="29" border="0"></a>
                 <a href="https://cloud.mail.ru/public/jsXD/3f1nejh5d" target="_blank" title="Кропотин Иван Фёдорович"><img id="btn279" src="images/knopkaIstoria2.svg" width="100" height="29" border="0" style="display: none;"></a>	
+			</div>
+		</div>
+
+<script>
+$(document).ready(function(){
+    $('#btn1034').on("click", function(){
+    $('#btn1034').toggle();
+	$('#btn1035').toggle();
+    });
+});
+</script>
+		<div id="Perm1" class="item">
+			<div>
+				<a data-lightbox="lightbox" href="img/big/0518.jpg">
+					    <img class="front" src="img/small/0518.jpg" title="Коротаев Иван Фёдорович"></a>
+				<a href="https://cloud.mail.ru/public/ScJh/myUEXz9cV" target="_blank" title="Коротаев Иван Фёдорович"><img id="btn1034" class="btnhov" src="images/knopkaIstoria.svg" width="100" height="29" border="0"></a>
+                <a href="https://cloud.mail.ru/public/ScJh/myUEXz9cV" target="_blank" title="Коротаев Иван Фёдорович"><img id="btn1035" src="images/knopkaIstoria2.svg" width="100" height="29" border="0" style="display: none;"></a>	
 			</div>
 		</div>
 
