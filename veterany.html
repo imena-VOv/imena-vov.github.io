@@ -191,6 +191,7 @@ $(window).on('beforeunload', function() {
 	<p id="Sim" style="cursor: pointer;"title="Симашур">&emsp;"Симашур"</p>
 	<p id="Sol" style="cursor: pointer;"title="Солдырь">&emsp;"Солдырь"</p>
 	<p id="Syan" style="cursor: pointer;"title="Сянино">&emsp;"Сянино"</p>
+	<p id="Syg" style="cursor: pointer;"title="Сыга">&emsp;"Сыга"</p>
 	<p id="Taga" style="cursor: pointer;"title="Тагапи">&emsp;"Тагапи"</p>
 	<p id="Tat" style="cursor: pointer;"title="Татарские Парзи">&emsp;"Татарские Парзи"</p>
 	<p id="Tek" style="cursor: pointer;"title="Тек">&emsp;"Тек"</p>
@@ -1651,6 +1652,18 @@ $('.item').css({
         'display': 'block'
     });	
 $('.details__title').html('Сянино');	
+});
+</script>
+
+<script>
+$('#Syg').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Syg1').css({
+        'display': 'block'
+    });
+$('.details__title').html('Сыга');	
 });
 </script>
 
@@ -5177,6 +5190,23 @@ $(document).ready(function(){
 				</a>
 				<a data-lightbox="lightbox2" href="images/1000.jpg" title="Загвозкин Михаил Александрович"><img id="btn176" class="btnhov" src="images/knopkaIstoria.svg" width="100" height="29" border="0"></a>
                 <a data-lightbox="lightbox2" href="images/1000.jpg" title="Загвозкин Михаил Александрович"><img id="btn177" src="images/knopkaIstoria2.svg" width="100" height="29" border="0" style="display: none;"></a>	
+			</div>
+		</div>
+
+<script>
+$(document).ready(function(){
+    $('#btn1024').on("click", function(){
+    $('#btn1024').toggle();
+	$('#btn1025').toggle();
+    });
+});
+</script>
+		<div id="Syg1" class="item">
+			<div>
+				<a data-lightbox="lightbox" href="img/big/0513.jpg">
+					    <img class="front" src="img/small/0513.jpg" title="Зайцева Наталья Ивановна"></a>
+				<a href="https://cloud.mail.ru/public/k4a5/DtVf3Cwrn" target="_blank" title="Зайцева Наталья Ивановна"><img id="btn1024" class="btnhov" src="images/knopkaIstoria.svg" width="100" height="29" border="0"></a>
+                <a href="https://cloud.mail.ru/public/k4a5/DtVf3Cwrn" target="_blank" title="Зайцева Наталья Ивановна"><img id="btn1025" src="images/knopkaIstoria2.svg" width="100" height="29" border="0" style="display: none;"></a>	
 			</div>
 		</div>
 
