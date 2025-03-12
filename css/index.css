@@ -195,11 +195,6 @@ body {
 	height: 105%;
     width: 105%;
  z-index: 1;
-	-webkit-filter: blur(0.5px);
-	-moz-filter: blur(0.5px);
-	-o-filter: blur(0.5px);
-	-ms-filter: blur(0.5px);
-	filter: blur(0.5px);
 	@media (min-width: 1919px) and (max-width: 15360px) {
     margin-top: -5%;
   }
@@ -209,11 +204,6 @@ body {
    height: 105%;
    width: 105%;
   	z-index: 5;
-	-webkit-filter: blur(0px);
-	-moz-filter: blur(0px);
-	-o-filter: blur(0px);
-	-ms-filter: blur(0px);
-	filter: blur(0px);
 	@media (min-width: 1919px) and (max-width: 15360px) {
     margin-top: -5%;
   }
@@ -223,11 +213,6 @@ body {
   height: 105%;
   width: 105%;
 	z-index: 3;
-	-webkit-filter: blur(0.5px);
-	-moz-filter: blur(0.5px);
-	-o-filter: blur(0.5px);
-	-ms-filter: blur(0.5px);
-	filter: blur(0.5px);
 	@media (min-width: 1919px) and (max-width: 15360px) {
     margin-top: -5%;
   }
@@ -237,11 +222,6 @@ body {
   height: 105%;
   width: 105%;
 	z-index: 2;
-	-webkit-filter: blur(1.0px);
-	-moz-filter: blur(1.0px);
-	-o-filter: blur(1.0px);
-	-ms-filter: blur(1.0px);
-	filter: blur(1.0px);
 	@media (min-width: 1919px) and (max-width: 15360px) {
     margin-top: -5%;
   }
@@ -251,11 +231,6 @@ body {
   height: 106%;
   width: 106%;
 	z-index: 2;
-	-webkit-filter: blur(1.0px);
-	-moz-filter: blur(1.0px);
-	-o-filter: blur(1.0px);
-	-ms-filter: blur(1.0px);
-	filter: blur(1.0px);
 	@media (min-width: 1919px) and (max-width: 15360px) {
     margin-top: -5%;
   }
@@ -265,11 +240,6 @@ body {
   height: 120%;
   width: 120%;
 	z-index: 2;
-	-webkit-filter: blur(1px);
-	-moz-filter: blur(1px);
-	-o-filter: blur(1px);
-	-ms-filter: blur(1px);
-	filter: blur(1px);
 	@media (min-width: 1919px) and (max-width: 15360px) {
     margin-top: -5%;
   }
