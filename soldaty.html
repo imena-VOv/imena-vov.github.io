@@ -134,6 +134,7 @@ $(window).on('beforeunload', function() {
   <div class="details__content">    
     <p id="Bez" style="cursor: pointer;"title="Безум">&emsp;"Безум"</p>
 	<p id="Vae" style="cursor: pointer;"title="Ваебыж">&emsp;"Ваебыж"</p>
+	<p id="Vya" style="cursor: pointer;"title="Вятка-1">&emsp;"Вятка-1"</p>
 	<p id="Bog" style="cursor: pointer;"title="Верхняя Богатырка">&emsp;"Верхняя Богатырка"</p>
 	<p id="Gon" style="cursor: pointer;"title="Гондырево">&emsp;"Гондырево"</p>
 	<p id="Gul" style="cursor: pointer;"title="Гулёково">&emsp;"Гулёково"</p>
@@ -216,6 +217,18 @@ $('.item').css({
         'display': 'block'
     });
 $('.details__title').html('Ваебыж');	
+});
+</script>
+
+<script>
+$('#Vya').click(function() {
+$('.item').css({
+        'display': 'none'
+    });
+    $('#Vya1').css({
+        'display': 'block'
+    });
+$('.details__title').html('Вятка-1');	
 });
 </script>
 
@@ -917,6 +930,23 @@ $(document).ready(function(){
                 <a href="https://cloud.mail.ru/public/MYCE/LWLqxUBQR" target="_blank" title="Ельцов Фёдор Николаевич"><img id="btn10033" src="images/knopkaIstoria2.svg" width="100" height="29" border="0" style="display: none;"></a>   
 			</div>
 		</div>	
+
+<script>
+$(document).ready(function(){
+    $('#btn10118').on("click", function(){
+    $('#btn10118').toggle(); 
+    $('#btn10119').toggle();
+    });
+	});
+</script>		
+		<div id="Vya1" class="item">
+			<div>
+				<a data-lightbox="lightbox" href="imgSold/big/s60.jpg">
+					    <img class="front" src="imgSold/small/s60.jpg" title="Жвакин Иван Хрисанфович"></a>
+                <a href="https://cloud.mail.ru/public/7Zut/SncKQcJT9" target="_blank" title="Жвакин Иван Хрисанфович"><img id="btn10118" class="btnhov" src="images/knopkaIstoria.svg" width="100" heigh="29" border="0"></a>	
+                <a href="https://cloud.mail.ru/public/7Zut/SncKQcJT9" target="_blank" title="Жвакин Иван Хрисанфович"><img id="btn10119" src="images/knopkaIstoria2.svg" width="100" height="29" border="0" style="display: none;"></a>   
+			</div>
+		</div>
 		
 <script>
 $(document).ready(function(){
