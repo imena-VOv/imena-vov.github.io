@@ -44,7 +44,7 @@ div#container
   font-size: 22px;
   }
   @media (min-width: 1px) and (max-width: 1240px) {
-  margin-left: -1%;
+  margin-left: 1%;
   font-size: 18px;
   }
   @media (min-width: 1680px) and (max-width: 1919px) {
@@ -230,6 +230,42 @@ body {
 	-o-filter: blur(0px);
 	-ms-filter: blur(0px);
 	filter: blur(0px);
+  	@media screen and (min-width: 50px) and (max-width: 899px) {
+	margin-top: -60px;
+    margin-left: -360px;
+    height: 300%;
+    width: 305%;
+  }
+  	@media screen and (min-width: 900px) and (max-width: 1099px) {
+	margin-top: -110px;
+    margin-left: -360px;
+    height: 250%;
+    width: 255%;
+  }
+	@media screen and (min-width: 1100px) and (max-width: 1199px) {
+	margin-top: -150px;
+    margin-left: -360px;
+    height: 220%;
+    width: 225%;
+  }
+	@media screen and (min-width: 1200px) and (max-width: 1279px) {
+	margin-top: -100px;
+    margin-left: -260px;
+    height: 190%;
+    width: 195%;
+  }
+	@media screen and (min-width: 1280px) and (max-width: 1479px) {
+	margin-top: -45px;
+    margin-left: -360px;
+    height: 180%;
+    width: 185%;
+  }
+	@media (min-width: 1480px) and (max-width: 1679px) {
+	margin-top: -50px;
+    margin-left: -360px;
+    height: 180%;
+    width: 185%;
+  }
   @media (min-width: 1680px) and (max-width: 1919px) {
     width: 132%;
   }
@@ -246,7 +282,17 @@ body {
 	-o-filter: blur(0px);
 	-ms-filter: blur(0px);
 	filter: blur(0px);
-	@media screen and (min-width: 1px) and (max-width: 1199px) {
+	@media screen and (min-width: 50px) and (max-width: 899px) {
+    margin-left: -310px;
+    margin-top: -130px;
+    scale: 60%;
+  }
+  	@media screen and (min-width: 900px) and (max-width: 1099px) {
+    margin-left: -250px;
+    margin-top: -80px;
+    scale: 80%;
+  }
+	@media screen and (min-width: 1100px) and (max-width: 1199px) {
 	margin-left: -150px;
 	margin-top: 40px;
   }
