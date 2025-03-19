@@ -39,13 +39,17 @@ div#container
   z-index: 22222;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
   letter-spacing: 2px;
+  @media (min-width: 1px) and (max-width: 400px) {
+  margin-left: 1%;
+  font-size: 58px;
+  }
+  @media (min-width: 401px) and (max-width: 1240px) {
+  margin-left: 1%;
+  font-size: 18px;
+  }
   @media (min-width: 1480px) and (max-width: 1679px) {
   margin-left: -23%;
   font-size: 22px;
-  }
-  @media (min-width: 1px) and (max-width: 1240px) {
-  margin-left: 1%;
-  font-size: 18px;
   }
   @media (min-width: 1680px) and (max-width: 1919px) {
   margin-left: -31%;
@@ -79,7 +83,12 @@ div#container
   z-index: 22222;
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
   letter-spacing: 2px;
-  @media (min-width: 1px) and (max-width: 1240px) {
+  @media (min-width: 1px) and (max-width: 400px) {
+  margin-top: -150px;
+  margin-left: 1%;
+  font-size: 58px;
+  }
+  @media (min-width: 401px) and (max-width: 1240px) {
   margin-left: 0px;
   font-size: 18px;
   }
@@ -230,7 +239,13 @@ body {
 	-o-filter: blur(0px);
 	-ms-filter: blur(0px);
 	filter: blur(0px);
-  	@media screen and (min-width: 50px) and (max-width: 899px) {
+	@media screen and (min-width: 50px) and (max-width: 400px) {
+	margin-top: -60px;
+    margin-left: -1060px;
+    height: 460%;
+    width: 465%;
+  }
+  	@media screen and (min-width: 401px) and (max-width: 899px) {
 	margin-top: -60px;
     margin-left: -360px;
     height: 300%;
@@ -282,7 +297,12 @@ body {
 	-o-filter: blur(0px);
 	-ms-filter: blur(0px);
 	filter: blur(0px);
-	@media screen and (min-width: 50px) and (max-width: 899px) {
+	@media screen and (min-width: 50px) and (max-width: 400px) {
+    margin-left: -90px;
+    margin-top: 700px;
+    scale: 110%;
+  }
+	@media screen and (min-width: 401px) and (max-width: 899px) {
     margin-left: -310px;
     margin-top: -130px;
     scale: 60%;
