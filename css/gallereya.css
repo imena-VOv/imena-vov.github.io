@@ -34,7 +34,7 @@ div#container
   text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2), -1px -1px 25px rgba(0, 0, 0, 0.1);
   letter-spacing: 2px;
   @media (min-width: 400px) and (max-width: 1023px) {
-  top: 15%;
+  top: 15px;
   }
   @media (min-width: 1024px) and (max-width: 1919px) {
   top: 10%;
