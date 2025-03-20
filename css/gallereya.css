@@ -208,6 +208,10 @@ body {
 	-o-filter: blur(2px);
 	-ms-filter: blur(2px);
 	filter: blur(2px);
+	@media (min-width: 720px) and (max-width: 980px) {
+    height: 400%;
+    width: 400%;
+  }
 }
 .parallax #Dym {
   display: inline-block;
