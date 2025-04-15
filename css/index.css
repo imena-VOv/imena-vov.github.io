@@ -122,13 +122,13 @@ body
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 400;
-  src: url(https://imena-vov.github.io/text/0IIpQlx3QUlC5A4PNr5TRF.ttf) format('truetype');
+  src: url(https://imena-vov.github.io/text/NotoSans-Bold.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Noto Sans';
   font-style: normal;
   font-weight: 700;
-  src: url(https://imena-vov.github.io/text/0NIpQlx3QUlC5A4PNjXhFVZNyE.ttf) format('truetype');
+  src: url(https://imena-vov.github.io/text/NotoSans-Bold.ttf) format('truetype');
 }
 body {
   background-color: #757575;
